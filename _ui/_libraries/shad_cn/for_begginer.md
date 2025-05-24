@@ -170,7 +170,7 @@ return (
 <Form onSubmit={form.handleSubmit(onSubmit)}>
 <FormField name="username" control={form.control} render={({ field }) => (
 <FormItem>
-<FormLabel>Username</FormLabel>
+<FormLabel className="text-black dark:text-white/70">Username</FormLabel>
 <FormControl>
 <Input placeholder="Enter username" {...field} />
 </FormControl>
@@ -179,7 +179,7 @@ return (
 )} />
 <FormField name="password" control={form.control} render={({ field }) => (
 <FormItem>
-<FormLabel>Password</FormLabel>
+<FormLabel className="text-black dark:text-white/70">Password</FormLabel>
 <FormControl>
 <Input type="password" placeholder="Enter password" {...field} />
 </FormControl>
