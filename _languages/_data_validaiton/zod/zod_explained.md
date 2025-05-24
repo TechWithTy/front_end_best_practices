@@ -590,12 +590,12 @@ Validating route parameters
 Route parameters usually need strict validation since they identify specific resources. Invalid parameters should be caught early to avoid unnecessary database lookups:
 
 const ParamsSchema = z.object({
-id: z.string().uuid()
+userId: z.string().uuid()
 });
 
-app.get("/users/:id", (req, res) => {
+app.get("/users/:userId", (req, res) => {
 const result = ParamsSchema.safeParse(req.params);
-// Only proceeds if id is a valid UUID
+// Only proceeds if userId is a valid UUID
 });
 
 This ensures that requests with malformed IDs fail fast, protecting your database queries from invalid input.

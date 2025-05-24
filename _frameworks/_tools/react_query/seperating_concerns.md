@@ -27,13 +27,13 @@ type User = {
 }
 
 type GetUserQueryParams = {
-  id: string;
+  userId: string;
 }
 
 const QUERY_KEY = ['User'];
 
 const fetchUser = async (params: GetUserQueryParams): Promise<User> => {
-  const { data } = await apiClient.get(`/users/${params.id}`);
+  const { data } = await apiClient.get(`/users/${params.userId}`);
   return data;
 };
 
@@ -46,11 +46,11 @@ You can use this hook in your component like:
 import { useGetUser, GetUserQueryParams } from './useGetUser';
 
 type Props = {
-  id: string;
+  userId: string;
 }
 
-const UserComponent = ({ id }: Props) => {
-  const { data: user, isLoading: isUserLoading, isError: isUserError } = useGetUser({ id } as GetUserQueryParams);
+const UserComponent = ({ userId }: Props) => {
+  const { data: user, isLoading: isUserLoading, isError: isUserError } = useGetUser({ userId } as GetUserQueryParams);
 
   if (isUserLoading) {
     return <div>Loading...</div>;
