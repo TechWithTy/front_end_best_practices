@@ -1669,7 +1669,7 @@ Asynchronous refinements
 
 Refinements can also be async:
 
-const userId = z.string().refine(async (id) => {
+const id = z.string().refine(async (id) => {
 // verify that ID exists in database
 return true;
 });

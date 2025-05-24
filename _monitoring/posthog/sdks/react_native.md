@@ -916,10 +916,10 @@ class PostHog {
       });
       console.log('======= New POSTHOG INSTANCE =======', this.instance);
     }
-    const userId = authenticationData?.id?.toString();
-    if (userId) {
-      console.log('======= IDENTIFY =======', userId);
-      this.instance.identify(userId, {
+    const id = authenticationData?.id?.toString();
+    if (id) {
+      console.log('======= IDENTIFY =======', id);
+      this.instance.identify(id, {
         email: authenticationData?.email,
         name: authenticationData?.name,
         phone: authenticationData?.cellPhone,

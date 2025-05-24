@@ -1132,20 +1132,20 @@ When there is truly a use case for using prop in initial state, prop must be pre
 // ❌ Avoid using props to state
 type FooProps = {
 productName: string;
-userId: string;
+id: string;
 };
 
-export const Foo = ({ productName, userId }: FooProps) => {
+export const Foo = ({ productName, id }: FooProps) => {
 const [productName, setProductName] = useState(productName);
 ...
 
 // ✅ Use prop prefix `initial`, when there is a rational use case for it
 type FooProps = {
 initialProductName: string;
-userId: string;
+id: string;
 };
 
-export const Foo = ({ initialProductName, userId }: FooProps) => {
+export const Foo = ({ initialProductName, id }: FooProps) => {
 const [productName, setProductName] = useState(initialProductName);
 ...
 
