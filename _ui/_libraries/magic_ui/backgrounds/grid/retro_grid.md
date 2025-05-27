@@ -21,7 +21,8 @@ export function RetroGridDemo() {
 Installation
 Copy and paste the following code into your project.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface RetroGridProps extends React.HTMLAttributes<HTMLDivElement> {
   /**

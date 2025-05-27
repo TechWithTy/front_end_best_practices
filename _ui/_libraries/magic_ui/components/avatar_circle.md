@@ -41,7 +41,8 @@ Copy and paste the following code into your project.
 /* eslint-disable @next/next/no-img-element */
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface Avatar {
   imageUrl: string;

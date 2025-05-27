@@ -63,7 +63,8 @@ Copy the source code
 
 components/ui/background-gradient.tsx
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React from "react";
 import { motion } from "motion/react";
  

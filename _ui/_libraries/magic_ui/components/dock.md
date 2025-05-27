@@ -17,7 +17,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Dock, DockIcon } from "@/registry/magicui/dock";
  
 export type IconProps = React.HTMLAttributes<SVGElement>;
@@ -181,7 +182,8 @@ import {
 } from "motion/react";
 import React, { PropsWithChildren, useRef } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export interface DockProps extends VariantProps<typeof dockVariants> {
   className?: string;

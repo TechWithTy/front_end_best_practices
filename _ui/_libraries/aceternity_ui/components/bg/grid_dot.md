@@ -5,7 +5,8 @@ background
 card
 utility
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React from "react";
  
 export function GridBackgroundDemo() {
@@ -46,7 +47,8 @@ export function cn(...inputs: ClassValue[]) {
 Examples
 Grid Background
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React from "react";
  
 export function GridBackgroundDemo() {
@@ -71,7 +73,8 @@ export function GridBackgroundDemo() {
 
 Grid Small Background
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React from "react";
  
 export function GridSmallBackgroundDemo() {
@@ -96,7 +99,8 @@ export function GridSmallBackgroundDemo() {
 
 Dot Background
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React from "react";
  
 export function DotBackgroundDemo() {

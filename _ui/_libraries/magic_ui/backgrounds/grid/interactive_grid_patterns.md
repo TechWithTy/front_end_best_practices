@@ -4,7 +4,8 @@ A interactive background grid pattern made with SVGs, fully customizable using T
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { InteractiveGridPattern } from "@/registry/magicui/interactive-grid-pattern";
  
 export function InteractiveGridPatternDemo() {
@@ -25,7 +26,8 @@ Copy and paste the following code into your project.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, { useState } from "react";
  
 /**
@@ -102,7 +104,8 @@ Colorful
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { InteractiveGridPattern } from "@/registry/magicui/interactive-grid-pattern";
  
 export function InteractiveGridPatternDemo() {

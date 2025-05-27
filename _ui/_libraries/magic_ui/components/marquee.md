@@ -2,7 +2,8 @@ Marquee
 
 An infinite scrolling component that can be used to display text, images, or videos.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Marquee } from "@/registry/magicui/marquee";
  
 const reviews = [
@@ -104,7 +105,8 @@ export function MarqueeDemo() {
 Installation
 Copy and paste the following code into your project.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { ComponentPropsWithoutRef } from "react";
  
 interface MarqueeProps extends ComponentPropsWithoutRef<"div"> {
@@ -208,7 +210,8 @@ Examples
 Vertical
 
 /* eslint-disable @next/next/no-img-element */
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Marquee } from "@/registry/magicui/marquee";
  
 const reviews = [
@@ -292,7 +295,8 @@ export function MarqueeDemoVertical() {
 3D
 
 /* eslint-disable @next/next/no-img-element */
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Marquee } from "@/registry/magicui/marquee";
  
 const reviews = [

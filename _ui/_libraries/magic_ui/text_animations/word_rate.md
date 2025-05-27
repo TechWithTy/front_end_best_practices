@@ -25,7 +25,8 @@ Copy and paste the following code into your project.
 import { AnimatePresence, motion, MotionProps } from "motion/react";
 import { useEffect, useState } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface WordRotateProps {
   words: string[];

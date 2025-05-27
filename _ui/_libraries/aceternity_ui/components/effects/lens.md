@@ -11,7 +11,8 @@ import { useState } from "react";
 import { Lens } from "../ui/lens";
  
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export function LensDemo() {
   const [hovering, setHovering] = useState(false);
@@ -632,7 +633,8 @@ import { useState } from "react";
 import { Lens } from "../ui/lens";
  
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export function LensDemo() {
   const [hovering, setHovering] = useState(false);
@@ -1106,7 +1108,8 @@ import { useState } from "react";
 import { Lens } from "../ui/lens";
  
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export function LensDemoSecond() {
   return (
@@ -1572,7 +1575,8 @@ Lens on a React Component
 import { useState } from "react";
 import { Lens } from "../ui/lens";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export function LensDemoThird() {
   const [hovering, setHovering] = useState(false);

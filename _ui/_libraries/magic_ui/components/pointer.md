@@ -130,7 +130,8 @@ Copy and paste the following code into your project.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import {
   AnimatePresence,
   HTMLMotionProps,

@@ -37,7 +37,8 @@ export function AnimatedCircularProgressBarDemo() {
 Installation
 Copy and paste the following code into your project.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface AnimatedCircularProgressBarProps {
   max: number;

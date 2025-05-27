@@ -53,7 +53,8 @@ Copy and paste the following code into your project.
  
 import * as React from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface ShineBorderProps extends React.HTMLAttributes<HTMLDivElement> {
   /**

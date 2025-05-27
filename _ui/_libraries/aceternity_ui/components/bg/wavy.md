@@ -41,7 +41,8 @@ Copy the source code
 components/ui/wavy-background.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, { useEffect, useRef, useState } from "react";
 import { createNoise3D } from "simplex-noise";
  

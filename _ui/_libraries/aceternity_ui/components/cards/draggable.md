@@ -97,7 +97,8 @@ Copy the source code
 components/ui/draggable-card.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, { useRef, useState, useEffect } from "react";
 import {
   motion,

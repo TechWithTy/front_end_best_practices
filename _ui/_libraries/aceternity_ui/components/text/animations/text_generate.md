@@ -39,7 +39,8 @@ components/ui/text-generate-effect.tsx
 "use client";
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const TextGenerateEffect = ({
   words,

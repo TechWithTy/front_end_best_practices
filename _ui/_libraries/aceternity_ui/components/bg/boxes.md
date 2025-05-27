@@ -10,7 +10,8 @@ call to action
 "use client";
 import React from "react";
 import { Boxes } from "../ui/background-boxes";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 
 export function BackgroundBoxesDemo() {
 return (
@@ -51,7 +52,8 @@ components/ui/background-boxes.tsx
 "use client";
 import React from "react";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 
 export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
 const rows = new Array(150).fill(1);

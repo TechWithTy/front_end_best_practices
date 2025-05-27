@@ -100,7 +100,8 @@ components/ui/following-pointer.tsx
 import React, { useEffect, useState } from "react";
  
 import { motion, AnimatePresence, useMotionValue } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const FollowerPointerCard = ({
   children,

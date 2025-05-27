@@ -63,7 +63,8 @@ components/ui/svg-mask-effect.tsx
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const MaskContainer = ({
   children,

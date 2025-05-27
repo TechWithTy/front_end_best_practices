@@ -30,7 +30,8 @@ Copy and paste the following code into your project.
 "use client";
  
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Check, Copy } from "lucide-react";
 import { motion } from "motion/react";
 import { useTheme } from "next-themes";

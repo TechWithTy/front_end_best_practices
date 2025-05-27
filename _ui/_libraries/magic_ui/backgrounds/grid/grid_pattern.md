@@ -4,7 +4,8 @@ A background grid pattern made with SVGs, fully customizable using Tailwind CSS.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { GridPattern } from "@/registry/magicui/grid-pattern";
  
 export function GridPatternDemo() {
@@ -39,7 +40,8 @@ Copy and paste the following code into your project.
 
 import { useId } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface GridPatternProps extends React.SVGProps<SVGSVGElement> {
   width?: number;
@@ -114,7 +116,8 @@ Linear Gradient
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { GridPattern } from "@/registry/magicui/grid-pattern";
  
 export function GridPatternLinearGradient() {
@@ -137,7 +140,8 @@ Dashed Stroke
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { GridPattern } from "@/registry/magicui/grid-pattern";
  
 export function GridPatternDashed() {

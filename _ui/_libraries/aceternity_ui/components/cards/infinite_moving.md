@@ -90,7 +90,8 @@ components/ui/infinite-moving-cards.tsx
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, { useEffect, useState } from "react";
  
 export const InfiniteMovingCards = ({

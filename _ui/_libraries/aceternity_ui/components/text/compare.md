@@ -50,7 +50,8 @@ components/ui/compare.tsx
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { AnimatePresence, motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { IconDotsVertical } from "@tabler/icons-react";
  
 interface CompareProps {
@@ -295,7 +296,8 @@ import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import type { Container, SingleOrMultiple } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion, useAnimation } from "motion/react";
  
 type ParticlesProps = {

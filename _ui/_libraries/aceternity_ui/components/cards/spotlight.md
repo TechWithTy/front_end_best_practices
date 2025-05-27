@@ -83,7 +83,8 @@ components/ui/card-spotlight.tsx
 import { useMotionValue, motion, useMotionTemplate } from "motion/react";
 import React, { MouseEvent as ReactMouseEvent, useState } from "react";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const CardSpotlight = ({
   children,
@@ -156,7 +157,8 @@ export const CardSpotlight = ({
 components/ui/canvas-reveal-effect.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
 import * as THREE from "three";

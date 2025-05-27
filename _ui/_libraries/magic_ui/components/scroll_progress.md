@@ -20,7 +20,8 @@ Copy and paste the following code into your project.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion, MotionProps, useScroll } from "motion/react";
 import React from "react";
 interface ScrollProgressProps

@@ -80,7 +80,8 @@ Copy the source code
 components/ui/aurora-background.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, { ReactNode } from "react";
  
 interface AuroraBackgroundProps extends React.HTMLProps<HTMLDivElement> {

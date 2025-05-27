@@ -12,7 +12,8 @@ Installation
 Copy and paste the following code into your project.
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion, Transition, Variants } from "motion/react";
 import React, { CSSProperties } from "react";
  

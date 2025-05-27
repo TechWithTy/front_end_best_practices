@@ -22,7 +22,8 @@ export function cn(...inputs: ClassValue[]) {
 Bento Grid
 
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
@@ -447,7 +448,8 @@ export function GridPattern({ width, height, x, y, squares, ...props }: any) {
 
 Simple with hover effects
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import {
   IconAdjustmentsBolt,
   IconCloud,

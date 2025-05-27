@@ -67,7 +67,8 @@ components/ui/typewriter-effect.tsx
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion, stagger, useAnimate, useInView } from "motion/react";
 import { useEffect } from "react";
  

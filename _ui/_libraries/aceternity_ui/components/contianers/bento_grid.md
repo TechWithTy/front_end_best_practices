@@ -6,7 +6,8 @@ grid
 hover
 features
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
@@ -103,7 +104,8 @@ Copy the source code
 
 components/ui/bento-grid.tsx
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const BentoGrid = ({
   className,

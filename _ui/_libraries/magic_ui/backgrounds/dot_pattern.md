@@ -4,7 +4,8 @@ A background dot pattern made with SVGs, fully customizable using Tailwind CSS.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { DotPattern } from "@/registry/magicui/dot-pattern";
  
 export function DotPatternDemo() {
@@ -24,7 +25,8 @@ Copy and paste the following code into your project.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion } from "motion/react";
 import React, { useEffect, useId, useRef, useState } from "react";
  
@@ -187,7 +189,8 @@ Linear Gradient
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { DotPattern } from "@/registry/magicui/dot-pattern";
  
 export function DotPatternLinearGradient() {
@@ -211,7 +214,8 @@ With Glow Effect
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { DotPattern } from "@/registry/magicui/dot-pattern";
  
 export function DotPatternWithGlowEffectDemo() {

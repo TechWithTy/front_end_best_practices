@@ -2,7 +2,8 @@ Animated Grid Pattern
 
 A animated background grid pattern made with SVGs, fully customizable using Tailwind CSS.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedGridPattern } from "@/registry/magicui/animated-grid-pattern";
  
 export function AnimatedGridPatternDemo() {
@@ -36,7 +37,8 @@ import {
   useState,
 } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export interface AnimatedGridPatternProps
   extends ComponentPropsWithoutRef<"svg"> {

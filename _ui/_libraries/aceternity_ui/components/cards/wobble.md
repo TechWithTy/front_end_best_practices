@@ -92,7 +92,8 @@ components/ui/wobble-card.tsx
 "use client";
 import React, { useState } from "react";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const WobbleCard = ({
   children,

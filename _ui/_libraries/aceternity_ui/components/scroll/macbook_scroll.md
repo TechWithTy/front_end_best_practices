@@ -95,7 +95,8 @@ components/ui/macbook-scroll.tsx
 "use client";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { MotionValue, motion, useScroll, useTransform } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import {
   IconBrightnessDown,
   IconBrightnessUp,

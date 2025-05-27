@@ -45,7 +45,8 @@ components/ui/flip-words.tsx
 "use client";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, LayoutGroup } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const FlipWords = ({
   words,

@@ -44,7 +44,8 @@ Copy the source code for Shooting Stars
 components/ui/shooting-stars.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, { useEffect, useState, useRef } from "react";
  
 interface ShootingStar {
@@ -195,7 +196,8 @@ Copy the source code for Stars Background
 components/ui/stars-background.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import React, {
   useState,
   useEffect,

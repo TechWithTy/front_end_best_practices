@@ -8,7 +8,8 @@ features
 
 "use client";
 import { CardStack } from "../ui/card-stack";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 export function CardStackDemo() {
   return (
     <div className="h-[40rem] flex items-center justify-center w-full">

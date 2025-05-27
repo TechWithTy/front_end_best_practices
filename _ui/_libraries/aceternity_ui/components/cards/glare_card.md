@@ -50,7 +50,8 @@ Copy the source code
 
 components/ui/glare-card.tsx
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { useRef } from "react";
  
 export const GlareCard = ({

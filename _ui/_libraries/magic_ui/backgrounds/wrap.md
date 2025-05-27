@@ -32,7 +32,8 @@ Copy and paste the following code into your project.
 
 "use client";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion } from "motion/react";
 import React, { HTMLAttributes, useCallback, useMemo } from "react";
  

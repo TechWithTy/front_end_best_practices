@@ -20,7 +20,8 @@ Copy and paste the following code into your project.
 
 import React, { ComponentPropsWithoutRef, CSSProperties } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface RippleProps extends ComponentPropsWithoutRef<"div"> {
   mainCircleSize?: number;

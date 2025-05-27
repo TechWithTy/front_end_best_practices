@@ -9,7 +9,8 @@ section
 import React from "react";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import {
   IconBrandGithub,
   IconBrandGoogle,
@@ -163,7 +164,8 @@ components/ui/input.tsx
 // Input component extends from shadcnui - https://ui.shadcn.com/docs/components/input
 "use client";
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { useMotionTemplate, useMotionValue, motion } from "motion/react";
  
 export interface InputProps
@@ -224,7 +226,8 @@ components/ui/label.tsx
 import * as React from "react";
 import * as LabelPrimitive from "@radix-ui/react-label";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 const Label = React.forwardRef<
   React.ElementRef<typeof LabelPrimitive.Root>,

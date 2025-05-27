@@ -94,7 +94,8 @@ Copy the source code
 components/ui/meteors.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion } from "motion/react";
 import React from "react";
  

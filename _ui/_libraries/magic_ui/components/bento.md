@@ -6,7 +6,8 @@ import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
 import { BellIcon, Share2Icon } from "lucide-react";
  
 import { Calendar } from "@/components/ui/calendar";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import AnimatedBeamMultipleOutputDemo from "@/registry/example/animated-beam-multiple-outputs";
 import AnimatedListDemo from "@/registry/example/animated-list-demo";
 import { BentoCard, BentoGrid } from "@/registry/magicui/bento-grid";
@@ -127,7 +128,8 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { ComponentPropsWithoutRef, ReactNode } from "react";
  
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 interface BentoGridProps extends ComponentPropsWithoutRef<"div"> {
   children: ReactNode;

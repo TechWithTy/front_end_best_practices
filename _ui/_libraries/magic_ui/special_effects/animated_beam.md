@@ -6,7 +6,8 @@ An animated beam of light which travels along a path. Useful for showcasing the 
 
 import React, { forwardRef, useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedBeam } from "@/registry/magicui/animated-beam";
 
 const Circle = forwardRef<
@@ -512,7 +513,8 @@ Copy and paste the following code into your project.
 import { motion } from "motion/react";
 import { RefObject, useEffect, useId, useState } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 
 export interface AnimatedBeamProps {
 className?: string;
@@ -703,7 +705,8 @@ Animated Beam Uni-Directional
 
 import React, { forwardRef, useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedBeam } from "@/registry/magicui/animated-beam";
 
 const Circle = forwardRef<
@@ -793,7 +796,8 @@ Animated Beam Bi-Directional
 
 import React, { forwardRef, useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedBeam } from "@/registry/magicui/animated-beam";
 
 const Circle = forwardRef<
@@ -894,7 +898,8 @@ Animated Beam Multiple Inputs
 
 import React, { forwardRef, useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedBeam } from "@/registry/magicui/animated-beam";
 
 const Circle = forwardRef<
@@ -1407,7 +1412,8 @@ Animated Beam Multiple Outputs
 
 import React, { forwardRef, useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedBeam } from "@/registry/magicui/animated-beam";
 
 const Circle = forwardRef<

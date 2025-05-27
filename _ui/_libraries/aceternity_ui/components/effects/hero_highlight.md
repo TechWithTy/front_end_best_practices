@@ -59,7 +59,8 @@ Copy the source code
 components/ui/hero-highlight.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { useMotionValue, motion, useMotionTemplate } from "motion/react";
 import React from "react";
  

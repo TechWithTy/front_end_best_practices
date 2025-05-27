@@ -45,7 +45,8 @@ components/ui/cover.tsx
 import React, { useEffect, useId, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useRef } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { SparklesCore } from "@/components/ui/sparkles";
  
 export const Cover = ({
@@ -278,7 +279,8 @@ import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import type { Container, SingleOrMultiple } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion, useAnimation } from "motion/react";
  
 type ParticlesProps = {

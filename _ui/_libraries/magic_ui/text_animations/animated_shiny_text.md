@@ -4,7 +4,8 @@ A light glare effect which pans across text making it appear as if it is shimmer
 
 import { ArrowRightIcon } from "@radix-ui/react-icons";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedShinyText } from "@/registry/magicui/animated-shiny-text";
  
 export function AnimatedShinyTextDemo() {
@@ -29,7 +30,8 @@ Copy and paste the following code into your project.
 
 import { ComponentPropsWithoutRef, CSSProperties, FC } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export interface AnimatedShinyTextProps
   extends ComponentPropsWithoutRef<"span"> {

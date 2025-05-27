@@ -37,7 +37,8 @@ Feature Block Animated Card
 "use client";
 import { animate, motion } from "motion/react";
 import React, { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { GoCopilot } from "react-icons/go";
  
 export function CardDemo() {
@@ -397,7 +398,8 @@ export const MetaIconOutline = ({ className }: { className?: string }) => {
 Background Overlay Card
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export function CardDemo() {
   return (
@@ -430,7 +432,8 @@ export function CardDemo() {
 Content Card
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
  
 export function CardDemo() {

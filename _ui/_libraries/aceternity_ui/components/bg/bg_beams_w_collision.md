@@ -45,7 +45,8 @@ Copy the source code
 components/ui/background-beams-with-collision.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { motion, AnimatePresence } from "motion/react";
 import React, { useRef, useState, useEffect } from "react";
  

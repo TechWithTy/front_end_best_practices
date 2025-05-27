@@ -59,7 +59,8 @@ components/ui/focus-cards.tsx
 "use client";
  
 import React, { useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 export const Card = React.memo(
   ({

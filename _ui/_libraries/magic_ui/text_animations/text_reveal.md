@@ -2,7 +2,8 @@ Animated Gradient Text
 
 An animated gradient background which transitions between colors for text.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatedGradientText } from "@/registry/magicui/animated-gradient-text";
 import { ChevronRight } from "lucide-react";
  
@@ -37,7 +38,8 @@ export function AnimatedGradientTextDemo() {
 Installation
 Copy and paste the following code into your project.
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { ComponentPropsWithoutRef } from "react";
  
 export interface AnimatedGradientTextProps

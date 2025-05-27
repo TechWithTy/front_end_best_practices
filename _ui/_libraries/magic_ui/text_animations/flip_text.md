@@ -19,7 +19,8 @@ Copy and paste the following code into your project.
  
 import { AnimatePresence, motion, Variants, MotionProps } from "motion/react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { ElementType } from "react";
 import React from "react";
  

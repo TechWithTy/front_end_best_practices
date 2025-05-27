@@ -27,7 +27,8 @@ Copy and paste the following code into your project.
  
 import { useCallback, useEffect, useRef } from "react";
  
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 const morphTime = 1.5;
 const cooldownTime = 0.5;

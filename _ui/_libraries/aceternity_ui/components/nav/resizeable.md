@@ -218,7 +218,8 @@ Copy the source code
 components/ui/resizable-navbar.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import {
   motion,

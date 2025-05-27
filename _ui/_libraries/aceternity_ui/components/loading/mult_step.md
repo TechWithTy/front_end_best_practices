@@ -88,7 +88,8 @@ Copy the source code
 components/ui/multi-step-loader.tsx
 
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatePresence, motion } from "motion/react";
 import { useState, useEffect } from "react";
  

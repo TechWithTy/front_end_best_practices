@@ -71,7 +71,8 @@ Copy the source code
 
 components/ui/card-hover-effect.tsx
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { AnimatePresence, motion } from "motion/react";
  
 import { useState } from "react";

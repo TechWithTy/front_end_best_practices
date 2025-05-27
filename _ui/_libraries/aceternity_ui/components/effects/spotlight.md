@@ -7,7 +7,8 @@ section
 special
 
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
 import { Spotlight } from "../ui/spotlight";
  
 export function SpotlightPreview() {
@@ -59,7 +60,8 @@ Copy the source code
 components/ui/Spotlight.tsx
 
 import React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/_utils";
+
  
 type SpotlightProps = {
   className?: string;
