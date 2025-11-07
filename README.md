@@ -12,19 +12,27 @@ A comprehensive, SEO-optimized library of markdown files, charts, and guides for
 
 ```
 _docs/front_end_best_practices/
-├── _architecture/           # Architectural patterns, diagrams, and explanations
-├── _ci-cd/                  # CI/CD best practices and workflows
-├── _frameworks/             # Guides for React, Next.js, Vue, Svelte, etc.
-├── _infrastructure/         # CDN, hosting, analytics, and monitoring
-├── _languages/              # TypeScript, JavaScript, CSS, etc.
-├── _monitoring/             # Logging, error tracking, performance
-├── _security/               # Frontend security best practices
-├── _testing/                # Unit, integration, and E2E testing strategies
-├── _ui/                     # UI libraries, component patterns, accessibility
-├── _styling/                # Tailwind, CSS-in-JS, and theming
-├── _three_dee/              # 3D rendering and Spline integration
-├── general.md               # Overview and getting started
-└── ...                      # More markdown files and charts
+├── _architecture/             # Architectural patterns, app layering, SSR vs CSR, rendering pipelines
+├── _ci-cd/                    # CI/CD workflows, deployment automation, environment branching
+├── _dev_shared_/              # Shared dev conventions, utilities, and cross-team templates
+├── _frameworks/               # Guides for React, Next.js, Svelte, and internal framework wrappers
+├── _infrastructure/           # CDN, caching, load balancing, hosting, and DNS/CDN strategy
+├── _languages/                # Standards for TypeScript, JavaScript, and CSS organization
+├── _monitoring/               # Observability: logging, Sentry integration, error boundaries, metrics
+├── _monolithic_backend_/      # Frontend-backend coupling, BFF pattern, API gateway coordination
+├── _security/                 # XSS/CSRF prevention, auth flows, secure storage, and permissions
+├── _system_design_/           # Diagrams and explanations for FE architecture & service interaction
+├── _testing/                  # Unit, integration, and E2E testing strategies (Vitest, Playwright)
+├── _ui/                       # Component libraries, design tokens, accessibility, and theming
+├── _styling/                  # Tailwind, CSS modules, and scoped styling conventions
+├── _three_dee/                # 3D rendering, Spline integrations, and WebGL/Three.js usage
+├── integration/               # API, SDK, CRM, and orchestration layer integration guides
+├── optimizations_performance/ # PWA, lazy-loading, Lighthouse audits, React Query optimization
+├── pwa/                       # Service workers, caching strategies, manifest config, A2HS flow
+├── general.md                 # Overview and onboarding guide for FE best practices
+├── README.md                  # Entry point for this section of documentation
+└── docs.scaffold.mmd          # Mermaid diagram for FE doc relationships and dependencies
+
 ```
 
 ## 🤝 Contributing
