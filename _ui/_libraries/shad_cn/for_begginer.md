@@ -45,7 +45,7 @@ How shadcn/ui works?
 
 Let’s say you want a beautiful, responsive button that’s accessible and comes with various style variants (like outline, ghost, etc.). With shadcn/ui, you’d do something like this:
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 
 export default function HomePage() {
 return (
@@ -77,7 +77,7 @@ Imagine you want to create a card that displays some content along with a button
 
 This works, but every time you need a card, you have to copy this code and tweak it. With shadcn/ui, you might have a Card component that encapsulates the styling and functionality:
 
-import { Card, CardHeader, CardTitle, CardContent, CardFooter, Button } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent, CardFooter, Button } from "@/ui/card";
 
 export default function InfoCard() {
 return (
@@ -127,7 +127,7 @@ disabled={loading} >
 
 With shadcn/ui, the Button component may already include built-in support for loading states. All you need to do is pass a prop:
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 
 export default function SubmitButton() {
 return (
@@ -155,9 +155,9 @@ Forms are another area where shadcn/ui shines. Instead of manually managing form
 Here’s a simple example of a login form using shadcn/ui:
 
 import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "@/components/ui/form";
+import { Button } from "@/ui/button";
+import { Input } from "@/ui/input";
+import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "@/ui/form";
 
 export default function LoginForm() {
 const form = useForm();
@@ -203,7 +203,7 @@ Another common UI element is an alert or notification. In plain HTML and Tailwin
 
 With shadcn/ui, you could have an Alert component that encapsulates this design:
 
-import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
+import { Alert, AlertTitle, AlertDescription } from "@/ui/alert";
 
 export default function ErrorAlert() {
 return (

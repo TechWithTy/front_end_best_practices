@@ -2,7 +2,7 @@ Border Beam
 
 An animated beam of light which travels along the border of its container.
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 import {
 Card,
 CardContent,
@@ -10,9 +10,9 @@ CardDescription,
 CardFooter,
 CardHeader,
 CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "@/ui/card";
+import { Input } from "@/ui/input";
+import { Label } from "@/ui/label";
 import { BorderBeam } from "@/registry/magicui/border-beam";
 
 export function Component() {
@@ -154,7 +154,7 @@ transition={{
 Examples
 2 Border Beams
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 import {
 Card,
 CardContent,
@@ -162,7 +162,7 @@ CardDescription,
 CardFooter,
 CardHeader,
 CardTitle,
-} from "@/components/ui/card";
+} from "@/ui/card";
 import { BorderBeam } from "@/registry/magicui/border-beam";
 import { Play, SkipBack, SkipForward } from "lucide-react";
 
@@ -213,7 +213,7 @@ return (
 
 Reverse
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 import {
 Card,
 CardContent,
@@ -221,9 +221,9 @@ CardDescription,
 CardFooter,
 CardHeader,
 CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "@/ui/card";
+import { Input } from "@/ui/input";
+import { Label } from "@/ui/label";
 import { BorderBeam } from "@/registry/magicui/border-beam";
 
 export function LoginForm() {
@@ -269,7 +269,7 @@ Enter your credentials to access your account.
 
 Spring Animation
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/ui/button";
 import { BorderBeam } from "@/registry/magicui/border-beam";
 
 export function Component() {
