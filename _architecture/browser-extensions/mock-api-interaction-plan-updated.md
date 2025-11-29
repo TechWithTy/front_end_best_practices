@@ -1,7 +1,7 @@
 # Mock API Implementation & Extension-Web App Interaction Plan
 
 ## Overview
-This document outlines the mock API structure and interaction patterns between the Deal Scale browser extension and the native web application (`app.leadorchestra.com`). The mock implementation will simulate real API behavior for development and testing.
+This document outlines the mock API structure and interaction patterns between the Deal Scale browser extension and the native web application (`app.dealscale.io`). The mock implementation will simulate real API behavior for development and testing.
 
 ## Mock Database Schema
 

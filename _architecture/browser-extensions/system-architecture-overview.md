@@ -1,10 +1,10 @@
 # Deal Scale System Architecture Overview
-browse this for our offical api docs: https://api.leadorchestra.com/docs
+browse this for our offical api docs: https://api.dealscale.io/docs
 ## System Modules
 
 Deal Scale consists of four distinct modules that work together to provide a comprehensive lead management solution:
 
-### 1. Landing Page (`leadorchestra.com` or similar)
+### 1. Landing Page (`dealscale.io` or similar)
 **Purpose**: Marketing and user acquisition
 - **Technology**: Static site (possibly Next.js, React, or HTML/CSS)
 - **Features**:
@@ -15,7 +15,7 @@ Deal Scale consists of four distinct modules that work together to provide a com
   - Blog/content sections
 - **User Flow**: Visitors → Sign up → Redirect to app
 
-### 2. Web Application (`app.leadorchestra.com`)
+### 2. Web Application (`app.dealscale.io`)
 **Purpose**: Main user interface for lead management
 - **Technology**: Next.js/React frontend with your specified stack
 - **Features**:
@@ -26,7 +26,7 @@ Deal Scale consists of four distinct modules that work together to provide a com
   - Integration management
 - **User Flow**: Authenticated users → Full lead management experience
 
-### 3. API Backend (`api.leadorchestra.com`)
+### 3. API Backend (`api.dealscale.io`)
 **Purpose**: Data processing and persistence layer
 - **Technology**: FastAPI/Python with PostgreSQL as specified
 - **Features**:
@@ -55,9 +55,9 @@ Internet/Websites
        ↓
 Browser Extension (Lead Capture)
        ↓ (via API calls)
-API Backend (api.leadorchestra.com)
+API Backend (api.dealscale.io)
        ↓ (WebSocket/real-time)
-Web Application (app.leadorchestra.com)
+Web Application (app.dealscale.io)
        ↓ (Authentication/Analytics)
 Landing Page (Marketing)
 ```
@@ -73,7 +73,7 @@ Landing Page (Marketing)
 6. **Web App**: Updates UI to show new lead
 
 #### Authentication Flow
-1. **User visits app.leadorchestra.com**
+1. **User visits app.dealscale.io**
 2. **Web App**: Redirects to authentication
 3. **API**: Handles OAuth/social login
 4. **API**: Returns JWT tokens

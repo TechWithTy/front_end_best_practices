@@ -1,7 +1,7 @@
 # Hybrid Architecture Implementation Plan
 
 ## Overview
-This document outlines the implementation plan for transitioning Deal Scale from a standalone browser extension to a hybrid architecture that leverages external services at `app.leadorchestra.com` (frontend) and `api.leadorchestra.com` (backend with PostgreSQL).
+This document outlines the implementation plan for transitioning Deal Scale from a standalone browser extension to a hybrid architecture that leverages external services at `app.dealscale.io` (frontend) and `api.dealscale.io` (backend with PostgreSQL).
 
 ## Current State vs. Target State
 
@@ -78,7 +78,7 @@ This document outlines the implementation plan for transitioning Deal Scale from
    - Add request/response interceptors
 
 2. **Update manifest and permissions**
-   - Add specific host permissions for leadorchestra.com domains
+   - Add specific host permissions for dealscale.io domains
    - Update CSP for API communication
 
 3. **Create basic sync service**
