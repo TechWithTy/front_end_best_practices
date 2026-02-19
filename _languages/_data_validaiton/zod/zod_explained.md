@@ -350,7 +350,7 @@ if (error instanceof z.ZodError) {
 
 If the data meets all validation rules, it is parsed successfully, and the valid user object is logged. However, a ZodError is thrown if the data fails validation.
 
-The catch block then checks the type of error—if it is a ZodError, the specific validation errors are logged. If the error is different, it is treated as an unexpected error and logged accordingly.
+The catch block then checks the type of error if it is a ZodError, the specific validation errors are logged. If the error is different, it is treated as an unexpected error and logged accordingly.
 
 Now when you run this code, you will see:
 Output

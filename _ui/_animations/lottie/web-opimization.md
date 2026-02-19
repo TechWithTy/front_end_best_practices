@@ -160,7 +160,7 @@ const MyComponent = () => {
   );
 };
 
-Create a custom — useLazyLottie hook
+Create a custom   useLazyLottie hook
 
 The useLazyLottie hook is a custom hook that you can use to implement lazy loading of a Lottie animation in a functional component. The useLazyLottie hook is not a built-in feature of either the lottie-react or lottie-web libraries, but it could be implemented as a custom hook that combines the useEffect and useRef hooks to implement lazy loading of a Lottie animation.
 
@@ -220,7 +220,7 @@ const MyComponent = () => {
 };
 
 In this example, the useLazyLottie hook is called with an options object that includes the renderer, loop, autoplay, and path options for the loadAnimation function. These options will be passed to the loadAnimation function when the animation becomes visible in the viewport.
-Code Splitting — Dynamic import package
+Code Splitting   Dynamic import package
 
 To use code-splitting with the lottie-web library in a Next.js application, you can use the dynamic import function provided by Next.js to lazy-load the lottie-web library and the animation data.
 

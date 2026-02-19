@@ -133,4 +133,4 @@ Layout
 
 Mockup
 
-Tailwind Divider Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Divider Component   Tailwind CSS Components ( version 5 update is here )

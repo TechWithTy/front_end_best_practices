@@ -160,4 +160,4 @@ Layout
 
 Mockup
 
-Tailwind Toggle Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Toggle Component   Tailwind CSS Components ( version 5 update is here )

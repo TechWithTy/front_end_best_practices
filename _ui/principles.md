@@ -15,7 +15,7 @@ Seven essential UI design principles + how to use them
 
 UI design principles cover photo
 
-Good design goes unnoticed. Bad design frustrates users until they abandon your product entirely. That's why user interface (UI) design matters—it's the difference between a product people love to use and one they’ll never use again. While aesthetics matter, the real challenge is creating products that anyone can use intuitively, whether they're on a phone, tablet, or computer.
+Good design goes unnoticed. Bad design frustrates users until they abandon your product entirely. That's why user interface (UI) design matters it's the difference between a product people love to use and one they’ll never use again. While aesthetics matter, the real challenge is creating products that anyone can use intuitively, whether they're on a phone, tablet, or computer.
 
 Read on to learn:
 
@@ -35,7 +35,7 @@ The benefits of applying UI design principles: enhances usability, improves deci
 
 Following UI design best practices makes digital products easier for everyone to use, follow, and enjoy. The benefits of applying UI design principles are many, including:
 
-    Enhances usability. “Think of a user as someone asking you directions. If you just showed them a map and expected them to memorize it, they'll probably get lost,” Tom says. “But if you point them to a sign that says their destination is this way, they can follow the signs from there … That's a much better experience. UI design principles help you set up signs users can follow towards their goals—one click, scroll, or interaction at a time.”
+    Enhances usability. “Think of a user as someone asking you directions. If you just showed them a map and expected them to memorize it, they'll probably get lost,” Tom says. “But if you point them to a sign that says their destination is this way, they can follow the signs from there … That's a much better experience. UI design principles help you set up signs users can follow towards their goals one click, scroll, or interaction at a time.”
     Improves decision-making. Clear and consistent UI design principles give a structured framework for predicting user needs and making informed design choices.
     Increases efficiency. Aligning UI design principles at the start of projects lifts the cognitive load for designers, streamlining workflows and making product teams more efficient. Figma data analysts found that participants with access to a design system completed their design objective 34% faster than those without one.
     Reduces cognitive load. A well-designed interface can simplify tasks, reducing the mental effort required to complete user actions. Less cognitive load can help create a more intuitive and enjoyable experience.
@@ -63,12 +63,12 @@ UI designers can borrow this approach to prioritize what to include in the UI an
 
 “Smart digital designers sequence features and flows to make the experience feel less overwhelming,” says Tom. “Consider the UX example of a product onboarding flow, which asks you all about yourself: your name, your contact information, your role, and industry, and maybe what interests you in this product.
 
-If you had to answer all that at once, that screen could look like a long form to fill out—and you might give up before you got started,” he continues.
+If you had to answer all that at once, that screen could look like a long form to fill out and you might give up before you got started,” he continues.
 
 One thing to watch out for with progressive disclosure is losing users along the way. “Give users a way to orient themselves, so they know where they are and how many steps they have to go,” Tom recommends.
 Principle 3: Consistency
 
-A good interface feels familiar from the first click. Deign systems create this familiarity through consistent patterns—when a button looks and works the same way throughout your product, users stop thinking about the interface and focus on their tasks.
+A good interface feels familiar from the first click. Deign systems create this familiarity through consistent patterns when a button looks and works the same way throughout your product, users stop thinking about the interface and focus on their tasks.
 
 Continuity becomes increasingly important as users advance through a flow. “If one UI button is suddenly bigger, users are going to wonder why,” Tom says. “That irregularity adds to users' cognitive load, creating hesitancy and confusion. So you need a good rationale when you deviate from established patterns.”
 Principle 4: Contrast

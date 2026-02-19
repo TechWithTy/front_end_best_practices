@@ -378,4 +378,4 @@ Layout
 
 Mockup
 
-Tailwind Text Input Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Text Input Component   Tailwind CSS Components ( version 5 update is here )

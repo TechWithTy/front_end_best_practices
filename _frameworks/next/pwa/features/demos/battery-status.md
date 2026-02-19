@@ -46,5 +46,5 @@ export function useBatteryStatus() {
 ```
 
 ## Notes for Deal Scale
-- Useful for kiosk deployments where the dashboard runs on tablets all day—show warnings as the battery depletes.
+- Useful for kiosk deployments where the dashboard runs on tablets all day show warnings as the battery depletes.
 - Because browser support is limited, treat this as an enhancement and default to traditional monitoring otherwise.

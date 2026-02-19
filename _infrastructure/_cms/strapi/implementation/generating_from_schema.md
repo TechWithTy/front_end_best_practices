@@ -8,7 +8,7 @@
 
 ## 1. Overview
 
-This guide details a "schema-first" approach to Strapi development. We will create a script that reads your Zod schemas—the single source of truth for your data shapes—and automatically generates the corresponding Strapi Content Type `schema.json` files. This ensures perfect synchronization between your frontend types and your backend CMS structure.
+This guide details a "schema-first" approach to Strapi development. We will create a script that reads your Zod schemas the single source of truth for your data shapes and automatically generates the corresponding Strapi Content Type `schema.json` files. This ensures perfect synchronization between your frontend types and your backend CMS structure.
 
 ## 2. The Strategy: Zod-to-Strapi Conversion
 

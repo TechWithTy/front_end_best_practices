@@ -44,9 +44,9 @@ Improving observability
 
 Performance is important for our all of our projects. Anytime a PR is submitted, our CI/CD automatically runs key benchmarks on it to measure its impact on performance. Ideally, the set of benchmarking measurements is comprehensive enough to meaningfully cover “real world” scenarios.
 
-While we already had some logging in deno lsp, we needed more thorough benchmarks. However, it’s difficult to benchmark in the conventional sense — language servers are so interactive and there are a million different ways that a user could use it. Coming up with a comprehensive set of benchmarks that is a good representative of what most users will experience would be difficult.
+While we already had some logging in deno lsp, we needed more thorough benchmarks. However, it’s difficult to benchmark in the conventional sense   language servers are so interactive and there are a million different ways that a user could use it. Coming up with a comprehensive set of benchmarks that is a good representative of what most users will experience would be difficult.
 
-Fortunately, for this particular investigation, we also knew the conditions in which our customer was running into performance issues. They were in a very large code base, which had over 75k lines of TypeScript code and over 750k lines of TypeScript in dependencies. We created a benchmark that covered this use case — it mocks a series of API calls to the language server that mimicked a user clicking around files in a huge code base. This helped us quickly assess the performance impact of a PR with respect to the customer’s specific use case.
+Fortunately, for this particular investigation, we also knew the conditions in which our customer was running into performance issues. They were in a very large code base, which had over 75k lines of TypeScript code and over 750k lines of TypeScript in dependencies. We created a benchmark that covered this use case   it mocks a series of API calls to the language server that mimicked a user clicking around files in a huge code base. This helped us quickly assess the performance impact of a PR with respect to the customer’s specific use case.
 
 In addition to this benchmark, we added instrumentation to the language server so we can get a sense of resource usage over time, which generated flamegraphs to help us narrow down in our code base where resources may be inefficiently used.
 Flamegraphs
@@ -63,7 +63,7 @@ JavaScript flamegraph before optimization
 
 The yellow represents our Rust code, the green our JavaScript code, and the purple the TypeScript compiler.
 
-The first wide purple segment (marked in red) represents the process where the TypeScript compiler is asking the Rust server for all of the contents of the files to synchronize the state of the project. The purple sliver to the immediate right is the actual work — returning autocomplete suggestions, for instance. This flamegraph indicates that the process of synchronizing state takes way too long, so the focus of our performance work became reducing that segment’s width as much as possible.
+The first wide purple segment (marked in red) represents the process where the TypeScript compiler is asking the Rust server for all of the contents of the files to synchronize the state of the project. The purple sliver to the immediate right is the actual work   returning autocomplete suggestions, for instance. This flamegraph indicates that the process of synchronizing state takes way too long, so the focus of our performance work became reducing that segment’s width as much as possible.
 Optimizing
 
 Before we dive into the fix, let’s go into more detail about how our Rust server interfaces with tsc.

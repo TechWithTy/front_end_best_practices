@@ -1,6 +1,6 @@
 Practical React Query
 
-16.11.2020 — ReactJs, React Query — 8 min read
+16.11.2020   ReactJs, React Query   8 min read
 a wall full of old tools
 Photo by Lachlan Donald
 
@@ -90,7 +90,7 @@ First of all: React Query does not invoke the queryFn on every re-render, even w
 
     Always code for re-renders, and a lot of them. I like to call it render resiliency.
 
-— Tanner Linsley
+  Tanner Linsley
 
 If you see a refetch that you are not expecting, it is likely because you just focused the window and React Query is doing a refetchOnWindowFocus, which is a great feature for production: If the user goes to a different browser tab, and then comes back to your app, a background refetch will be triggered automatically, and data on the screen will be updated if something has changed on the server in the meantime. All of this happens without a loading spinner being shown, and your component will not re-render if the data is the same as you currently have in the cache.
 

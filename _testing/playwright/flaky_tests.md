@@ -5,7 +5,7 @@ Sam Sperling
 ·
 Jan 27, 2025
 
-A test suite is like a parachute — you only trust it when it works every time. If your tests pass today but fail mysteriously tomorrow, they’re doing more harm than good. Stability is the key that makes tests valuable. In this article, we’ll explore Playwright’s top strategies for creating stable, resilient tests, so you can confidently ship code without worrying about flakiness.
+A test suite is like a parachute   you only trust it when it works every time. If your tests pass today but fail mysteriously tomorrow, they’re doing more harm than good. Stability is the key that makes tests valuable. In this article, we’ll explore Playwright’s top strategies for creating stable, resilient tests, so you can confidently ship code without worrying about flakiness.
 Playwright Testing Best Practices
 
 1. Use Reliable Selectors
@@ -190,7 +190,7 @@ Quarantine Strategy
 
 Root Cause Analysis
 
-    Investigate and fix the underlying issue — often an async race or environment mismatch — rather than just re-running to get a passing result.
+    Investigate and fix the underlying issue   often an async race or environment mismatch   rather than just re-running to get a passing result.
 
 12. Additional Considerations
 
@@ -210,13 +210,13 @@ In Short
 
 Playwright offers powerful features to minimize flakiness and maximize reliability, but success depends on:
 
-    Strong fundamentals — using stable selectors, leveraging auto-waiting, and isolating tests.
-    Good engineering practices — page objects, robust assertions, and parallelization done correctly.
-    Proactive debugging — tracing, logs, and immediate triage of flaky tests.
+    Strong fundamentals   using stable selectors, leveraging auto-waiting, and isolating tests.
+    Good engineering practices   page objects, robust assertions, and parallelization done correctly.
+    Proactive debugging   tracing, logs, and immediate triage of flaky tests.
 
 Managing Test Data and Databases for E2E Testing
 
-Stable tests are only as good as the data they’re built on. Even the most resilient test can fail if the underlying data or database setup is inconsistent or unreliable. That’s why managing test data and databases is critical — it ensures your tests have the consistent environment they need to deliver accurate results. Let’s explore how to do this effectively.
+Stable tests are only as good as the data they’re built on. Even the most resilient test can fail if the underlying data or database setup is inconsistent or unreliable. That’s why managing test data and databases is critical   it ensures your tests have the consistent environment they need to deliver accurate results. Let’s explore how to do this effectively.
 
 1. Use a Dedicated (and Disposable) Test Database
 

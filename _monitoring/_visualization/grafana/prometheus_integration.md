@@ -7,7 +7,7 @@ Monitoring is continuously observing system metrics, logs, and operations to ens
 Together, Prometheus and Grafana form a powerful duo. Prometheus collects and stores the data, while Grafana brings that data to life through visualization.
 
 In this article, you’ll learn about their basics and advanced features, how they complement each other, and the best practices.
-I — Prometheus
+I   Prometheus
 
 Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It excels in gathering numerical data over time, making it ideal for monitoring the performance of systems and applications. Its philosophy is centered on reliability and simplicity.
 
@@ -155,7 +155,7 @@ receivers:
 This Alertmanager configuration sets up email notifications as the method of alerting. It groups alerts by the alertname and instance labels, waiting for 10 seconds to group them. Notifications will be sent if the group waits or group interval has passed.
 
 By instrumenting your applications, leveraging service discovery, and configuring Alertmanager, Prometheus becomes a vigilant guardian of your infrastructure, always on the lookout for anomalies and equipped to notify you the moment something needs attention.
-II — Grafana
+II   Grafana
 
 Grafana is an open-source analytics and interactive visualization web application. It provides charts, graphs, and alerts when connected to supported data sources, including Prometheus. Essentially, Grafana allows you to turn your time-series database data into beautiful graphs and visualizations.
 Overview and Core Functionalities
@@ -242,7 +242,7 @@ For security in Prometheus and Grafana:
     Regular Updates: Keep Prometheus and Grafana up to date with the latest security patches.
 
 By integrating Prometheus with Grafana following these best practices, you can create a monitoring environment to your systems in a secure, efficient, and user-friendly manner. This combination can be a powerful asset in any infrastructure, enabling teams to detect and address issues proactively.
-III — Conclusion
+III   Conclusion
 
 Grafana makes sense of all the numbers Prometheus collects by turning them into easy-to-read dashboards and graphs. This makes it easier for you to see what’s going on and make smart decisions.
 

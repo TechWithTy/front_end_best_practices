@@ -64,7 +64,7 @@ const INJECTED = `(() => {
 ---
 
 ## `injectedJavaScriptBeforeContentLoaded`
-Inject JavaScript after the document element exists but before subresources load. Android support is experimental—prefer `injectedJavaScriptObject` when possible.
+Inject JavaScript after the document element exists but before subresources load. Android support is experimental prefer `injectedJavaScriptObject` when possible.
 
 | Type   | Required | Platform                           |
 | ------ | -------- | ---------------------------------- |

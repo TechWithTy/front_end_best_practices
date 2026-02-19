@@ -8,7 +8,7 @@ The structure of a Strapi project depends on whether the project was created wit
 The following diagram is interactive: you can click on any file or folder name highlighted in purple to go to the corresponding documentation page.
 
 . # root of the application
-├──── .strapi # auto-generated folder — do not update manually
+├──── .strapi # auto-generated folder   do not update manually
 │     └──── client # files used by bundlers to render the application
 │           ├ index.html 
 │           └ app.js 

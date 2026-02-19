@@ -166,7 +166,7 @@ Generate better SDKs for your APIs
 liblab.com
 
 Neon
-Serverless Postgres — Ship faster
+Serverless Postgres   Ship faster
 neon.tech
 
 Retool
@@ -436,7 +436,7 @@ z.coerce.boolean(); // Boolean(input)
 z.coerce.bigint(); // BigInt(input)
 z.coerce.date(); // new Date(input)
 
-Note — Boolean coercion with z.coerce.boolean() may not work how you expect. Any truthy value is coerced to true, and any falsy value is coerced to false.
+Note   Boolean coercion with z.coerce.boolean() may not work how you expect. Any truthy value is coerced to true, and any falsy value is coerced to false.
 
 const schema = z.coerce.boolean(); // Boolean(input)
 
@@ -1001,7 +1001,7 @@ _/
 
 .deepPartial
 
-The .partial method is shallow — it only applies one level deep. There is also a "deep" version:
+The .partial method is shallow   it only applies one level deep. There is also a "deep" version:
 
 const user = z.object({
 username: z.string(),
@@ -1619,7 +1619,7 @@ Arguments
 
 As you can see, .refine takes two arguments.
 
-    The first is the validation function. This function takes one input (of type T — the inferred type of the schema) and returns any. Any truthy value will pass validation. (Prior to zod@1.6.2 the validation function had to return a boolean.)
+    The first is the validation function. This function takes one input (of type T   the inferred type of the schema) and returns any. Any truthy value will pass validation. (Prior to zod@1.6.2 the validation function had to return a boolean.)
     The second argument accepts some options. You can use this to customize certain error-handling behavior:
 
 type RefineParams = {

@@ -103,4 +103,4 @@ Layout
 
 Mockup
 
-Tailwind Join Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Join Component   Tailwind CSS Components ( version 5 update is here )

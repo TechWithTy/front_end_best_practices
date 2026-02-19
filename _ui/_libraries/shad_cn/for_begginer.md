@@ -7,7 +7,7 @@ Updated on 2/28/2025
 
 shadcn/ui for Beginners
 
-Imagine building a house: plain HTML is your basic bricks, React is your toolkit for interactivity, and Next.js is a full construction system that makes everything run smoothly. Now, shadcn/ui is like a set of stylish, ready-made interior pieces—customizable UI components that instantly upgrade your website.
+Imagine building a house: plain HTML is your basic bricks, React is your toolkit for interactivity, and Next.js is a full construction system that makes everything run smoothly. Now, shadcn/ui is like a set of stylish, ready-made interior pieces customizable UI components that instantly upgrade your website.
 
 Built with Tailwind CSS and Radix UI, shadcn/ui helps you create beautiful, accessible interfaces in your React or Next.js projects.
 The Basics: Plain HTML, React, Next.js, and shadcn/ui
@@ -36,7 +36,7 @@ return (
 With this component, you can import and use <MyButton> wherever you need it in your application. Next.js, which is built on React, adds extra features like server-side rendering and routing, allowing you to build a fully functional website or web application.
 Enter shadcn/ui
 
-shadcn/ui is different. It’s not another framework—it’s a toolkit of pre-designed, customizable components. Instead of writing all the code from scratch for every interactive element, shadcn/ui gives you components that already include best practices for accessibility, state management, and customization.
+shadcn/ui is different. It’s not another framework it’s a toolkit of pre-designed, customizable components. Instead of writing all the code from scratch for every interactive element, shadcn/ui gives you components that already include best practices for accessibility, state management, and customization.
 
 shadcn/ui blocks
 
@@ -55,7 +55,7 @@ return (
 );
 }
 
-In this example, the <Button> component from shadcn/ui is a ready-made, well-structured element. It’s built on top of Tailwind CSS (for styling) and Radix UI (to ensure it meets accessibility guidelines). You can easily change its variant, add loading states, or even extend its functionality—all without having to code these features from scratch.
+In this example, the <Button> component from shadcn/ui is a ready-made, well-structured element. It’s built on top of Tailwind CSS (for styling) and Radix UI (to ensure it meets accessibility guidelines). You can easily change its variant, add loading states, or even extend its functionality all without having to code these features from scratch.
 Additional Examples: Building a Card Component
 
 Imagine you want to create a card that displays some content along with a button. With plain HTML and Tailwind CSS, you might write:
@@ -229,7 +229,7 @@ Easy Integration with Tailwind CSS
 For developers already familiar with Tailwind CSS, shadcn/ui is a natural fit. The components are styled using Tailwind’s utility classes, which means you can extend or override styles effortlessly. Whether you want to tweak colors, spacing, or responsive behavior, Tailwind’s utility-first approach gives you the flexibility to do so.
 Scalability and Customization
 
-Because shadcn/ui components are simply pieces of code you integrate into your project, they scale as your application grows. You can customize them extensively—if you need a slightly different button style or a modified form layout, you can adjust the component code directly without waiting for an update from a third-party library.
+Because shadcn/ui components are simply pieces of code you integrate into your project, they scale as your application grows. You can customize them extensively if you need a slightly different button style or a modified form layout, you can adjust the component code directly without waiting for an update from a third-party library.
 Use Cases
 
 Let’s take a look at a few scenarios where shadcn/ui could be a game changer:
@@ -248,7 +248,7 @@ Let’s take a look at a few scenarios where shadcn/ui could be a game changer:
 
 Recap
 
-In summary, shadcn/ui offers a fresh and efficient way to handle UI development. By providing a set of high-quality, customizable, and accessible components built on top of Tailwind CSS and Radix UI, it allows developers to focus on what makes their application unique—while still ensuring a consistent, polished look across the board.
+In summary, shadcn/ui offers a fresh and efficient way to handle UI development. By providing a set of high-quality, customizable, and accessible components built on top of Tailwind CSS and Radix UI, it allows developers to focus on what makes their application unique while still ensuring a consistent, polished look across the board.
 FAQ
 What is shadcn/ui?
 

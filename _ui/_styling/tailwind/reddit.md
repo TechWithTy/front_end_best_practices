@@ -23,10 +23,10 @@ Thanks in advance!
 u/AteraRMM avatar AteraRMM
 •
 Promoted
-See why more IT pros are moving to Atera—the all-in-one, AI-powered IT management platform built for pros. Start your free 30-day trial now!
+See why more IT pros are moving to Atera the all-in-one, AI-powered IT management platform built for pros. Start your free 30-day trial now!
 Sign Up
 atera.com
-Thumbnail image: See why more IT pros are moving to Atera—the all-in-one, AI-powered IT management platform built for pros. Start your free 30-day trial now!
+Thumbnail image: See why more IT pros are moving to Atera the all-in-one, AI-powered IT management platform built for pros. Start your free 30-day trial now!
 Sort by:
 Raziel_LOK
 •

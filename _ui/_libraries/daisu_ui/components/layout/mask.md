@@ -176,4 +176,4 @@ Layout
 
 Mockup
 
-Tailwind Mask Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Mask Component   Tailwind CSS Components ( version 5 update is here )

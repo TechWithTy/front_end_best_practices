@@ -305,7 +305,7 @@ Highly anticipating State of JS 2023 data though...
 	
 turnsout 11 months ago | root | parent | next [–]
 
-I'm judging by what I see teams choosing for new projects—both dev shops and corporate/internal devs. Even 5 years ago they might have debated Vue vs React, but there's not even a discussion anymore.
+I'm judging by what I see teams choosing for new projects both dev shops and corporate/internal devs. Even 5 years ago they might have debated Vue vs React, but there's not even a discussion anymore.
 
 	
 	
@@ -325,7 +325,7 @@ It's easy to work with, there's nice router and internationalization packages, r
 	
 turnsout 11 months ago | root | parent | prev | next [–]
 
-Just a few teams per year—extremely anecdotal. But it sounds like your company is in the same boat, with new projects going to React.
+Just a few teams per year extremely anecdotal. But it sounds like your company is in the same boat, with new projects going to React.
 
 	
 	

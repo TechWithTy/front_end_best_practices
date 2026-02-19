@@ -116,7 +116,7 @@ Common UI Patterns - UXPin for UX Designers
 It’s safe to say that patterns have been evolving and users become aware of standard locations for elements. Most users would agree that when they want to search for something, they look for the search bar in the upper center or right since this is a common placement.
 Establish design patterns for product UI and UX design consistency
 
-One of the keys to a successful — and consistent — UI is the user performing tasks with the minimum number of actions is. If a task that takes four steps can easily be completed in two, the UI should always be modified for the shorter task flow. UI patterns can help with this… after all, this efficiency is why they became patterns in the first place.
+One of the keys to a successful   and consistent   UI is the user performing tasks with the minimum number of actions is. If a task that takes four steps can easily be completed in two, the UI should always be modified for the shorter task flow. UI patterns can help with this… after all, this efficiency is why they became patterns in the first place.
 Design hierarchy
 
 Along with design patterns, having an established visual hierarchy of UI design elements does wonders for UI consistency. Whether users are aware of it or not, they instinctively pay attention to the order and priority of the elements they interact with.
@@ -171,7 +171,7 @@ It may not be user-facing, but it is one of the keys to consistency. Today, many
 A pattern library may not be as robust as a design system since it’s limited to design patterns specifically. A design system has more information all around, including helpful documentation about all the UI patterns and various components. A pattern library can also be a subsection of a design system.
 Make actions consistent
 
-Everyone loves when an application is user-friendly. It saves time, avoids headaches, and helps users accomplish their goals by eliminating confusion — all requirements for creating satisfied customers.
+Everyone loves when an application is user-friendly. It saves time, avoids headaches, and helps users accomplish their goals by eliminating confusion   all requirements for creating satisfied customers.
 
 Consistent actions remove the need for user discovery and therefore make their task flow run more smoothly. If a user knows how to use the functionality in one section, they know how to use it in all sections (as long as it’s consistent).
 
@@ -193,7 +193,7 @@ Review your content
 
 It’s not just about the visual elements, but also the text throughout the application.
 
-Consistent copy — especially consistent terminology — in each place in the application is another key. Using two different words for the same function makes them seem like different functions, causing a momentary pause in the workflow while the user sorts out the discrepancy.
+Consistent copy   especially consistent terminology   in each place in the application is another key. Using two different words for the same function makes them seem like different functions, causing a momentary pause in the workflow while the user sorts out the discrepancy.
 
 Consistent copy avoids this confusion.
 Content structure
@@ -233,7 +233,7 @@ Pay close attention to forms, too; they’re a great opportunity for defaults to
 Datepicker template UXPin - UXPin for UX Designers
 Consistent communication
 
-Search results, form submit messages, error windows — every interaction with your user is communication. For an app to be successful, it must speak to the user and keep them informed on what’s happening. And, as with everything else, the way you communicate should be consistent.
+Search results, form submit messages, error windows   every interaction with your user is communication. For an app to be successful, it must speak to the user and keep them informed on what’s happening. And, as with everything else, the way you communicate should be consistent.
 Changes in state and helpful information
 
 Users appreciate feedback: a toggle that changes color to indicate “on” or “off,” for example, or a sound effect to verify a completed action.
@@ -245,7 +245,7 @@ Messages in forms design consistency - UXPin for UX Designers
 Play it safe. Even when it’s apparent that the action was successful, a lot of users still prefer a quick confirmation.
 Reduce user frustration
 
-The most common cause of user frustration happens when it’s not clear what to do next. Some tasks are not so self-explanatory, but UI and UX designers are often too close to it to notice. Luckily, some instructional text — even just a line or two — can solve the problem.
+The most common cause of user frustration happens when it’s not clear what to do next. Some tasks are not so self-explanatory, but UI and UX designers are often too close to it to notice. Luckily, some instructional text   even just a line or two   can solve the problem.
 Instruction in an online form - UXPin for UX Designers
 
 For the same reason, error messages are useful too. While users may not like seeing them, they still need to know what happened and how it can be corrected.

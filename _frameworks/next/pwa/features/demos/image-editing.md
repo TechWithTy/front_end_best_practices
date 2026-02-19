@@ -4,7 +4,7 @@ Browse: [https://progressier.com/pwa-capabilities/image-editing](https://progres
 Last updated: 2025-11-07
 
 ## Summary
-This demo offers client-side image editing—cropping, filters, and annotations—showing how PWAs can replace native photo apps.
+This demo offers client-side image editing cropping, filters, and annotations showing how PWAs can replace native photo apps.
 
 ## Implementation Insights
 - Uses Canvas APIs for real-time adjustments without server uploads.

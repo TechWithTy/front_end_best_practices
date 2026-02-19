@@ -274,7 +274,7 @@ npx playwright test --shard=2/2
 
 When this is done and executed in parallel on different machines, the tests will complete twice as fast. Each generated report can then be merged so that you can inspect the results in one place. Many CI platforms support running jobs in parallel so ensure to take advantage of this feature to ensure your tests remain fast. A GitHub Actions example is provided in the documentation.
 
-Beyond pre-production runs, continuously executing end-to-end (E2E) tests on live systems for critical functionalities—such as account registration, user login, and checkout processes—can uncover issues that slip through earlier testing stages.
+Beyond pre-production runs, continuously executing end-to-end (E2E) tests on live systems for critical functionalities such as account registration, user login, and checkout processes can uncover issues that slip through earlier testing stages.
 
 Playwright tests in Better Stack
 

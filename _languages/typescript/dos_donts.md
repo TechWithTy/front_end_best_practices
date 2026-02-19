@@ -62,7 +62,7 @@ interface Fetcher {
 getObject(done: (data: unknown, elapsedTime?: number) => void): void;
 }
 
-This has a very specific meaning: the done callback might be invoked with 1 argument or might be invoked with 2 arguments. The author probably intended to say that the callback might not care about the elapsedTime parameter, but there’s no need to make the parameter optional to accomplish this — it’s always legal to provide a callback that accepts fewer arguments.
+This has a very specific meaning: the done callback might be invoked with 1 argument or might be invoked with 2 arguments. The author probably intended to say that the callback might not care about the elapsedTime parameter, but there’s no need to make the parameter optional to accomplish this   it’s always legal to provide a callback that accepts fewer arguments.
 
 ✅ Do write callback parameters as non-optional:
 

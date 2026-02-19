@@ -549,7 +549,7 @@ doThing()
 const items = [1, 2, 3]
 items.forEach(console.log)
 
-// Avoid — throws exception
+// Avoid   throws exception
 const m = new Map()
 const a = [1,2,3]
 [...m.values()].forEach(console.log)
@@ -557,7 +557,7 @@ const a = [1,2,3]
 >  ^^^
 > SyntaxError: Unexpected token ...
 
-// Avoid — throws exception
+// Avoid   throws exception
 const count = 2 // it tries to run 2(), but 2 is not a function
 (function doSomething() {
   // do something amazing
@@ -1972,4 +1972,4 @@ Independent full-stack developer with a taste for Ops and automation.
 <a href="https://linkedin.com/in/sagirk"><img src="assets/images/linkedin.svg" width="16" height="16"></img></a>
 <a href="https://sagirk.com"><img src="assets/images/web.svg" width="16" height="16"></img></a>
 
-Deep specialist in JavaScript and its ecosystem — React, Node.js, TypeScript, GraphQL, MongoDB, pretty much anything that involves JS/JSON in any layer of the system — building products using the web platform for the world’s most recognized brands. Individual Member of the Node.js Foundation.
+Deep specialist in JavaScript and its ecosystem   React, Node.js, TypeScript, GraphQL, MongoDB, pretty much anything that involves JS/JSON in any layer of the system   building products using the web platform for the world’s most recognized brands. Individual Member of the Node.js Foundation.

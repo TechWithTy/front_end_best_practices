@@ -3,12 +3,12 @@
 MDN’s Progressive Web Apps hub offers detailed guidance across four pillars. Review these sections when defining requirements or writing documentation.[^mdn-pwa]
 
 ## Guides
-- **What is a Progressive Web App?** — Principles and differentiators.
-- **Making PWAs installable** — Manifest + service worker criteria.
-- **Installing/uninstalling web apps** — Platform-specific install UX.
-- **Offline & background operation** — Service worker caching, background sync.
-- **Caching** — Strategies for offline-first behaviour.
-- **Best practices for PWAs** — Cross-browser/device considerations, accessibility, app-like UX.
+- **What is a Progressive Web App?**   Principles and differentiators.
+- **Making PWAs installable**   Manifest + service worker criteria.
+- **Installing/uninstalling web apps**   Platform-specific install UX.
+- **Offline & background operation**   Service worker caching, background sync.
+- **Caching**   Strategies for offline-first behaviour.
+- **Best practices for PWAs**   Cross-browser/device considerations, accessibility, app-like UX.
 
 ## How-to Articles
 - Trigger installation from your PWA
@@ -21,8 +21,8 @@ MDN’s Progressive Web Apps hub offers detailed guidance across four pillars. R
 - Associate files with your PWA
 
 ## Tutorials
-- **CycleTracker** — Beginner app covering manifest, service worker, offline pages.
-- **js13kGames** — Intermediate app with notifications, push, performance tuning.
+- **CycleTracker**   Beginner app covering manifest, service worker, offline pages.
+- **js13kGames**   Intermediate app with notifications, push, performance tuning.
 
 ## Reference
 - Web app manifest members (`name`, `scope`, `shortcuts`, `file_handlers`, etc.)
@@ -32,4 +32,4 @@ MDN’s Progressive Web Apps hub offers detailed guidance across four pillars. R
 
 Use these links to justify design decisions and cross-check browser support before adding new APIs.
 
-[^mdn-pwa]: MDN Progressive Web Apps — [https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+[^mdn-pwa]: MDN Progressive Web Apps   [https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)

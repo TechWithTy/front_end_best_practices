@@ -94,7 +94,7 @@ FindSecBugs 		Open Source or Free 		A security specific plugin for SpotBugs that
 Flawfinder 		Open Source or Free 		Scans C and C++.
 Fluid Attack's Scanner 	Fluid Attacks 	Open Source 		SAST, DAST and SCA vulnerability detection tool with perfect OWASP Benchmark score.
 Fortify 	Micro Focus 	Commercial 	Windows, Linux, and MacOSX 	Free trial scan available. Supported languages include: ABAP/BSP, ActionScript/MXML (Flex), APEX, ASP.NET, VB.NET, C\# (.NET), C/C++, Classic ASP (w/VBScript), COBOL, ColdFusion CFML, Go, HTML, Java (including Android), JavaScript/AJAX, JSP, Kotlin, Objective-C, PHP, PL/SQL, Python, Typescript, T-SQL, Ruby, Scala, Swift, Visual Basic (VB.NET), Visual Basic 6, VBScript, XML
-GitGuardian — Automated Secrets Detection 		Commercial 	SaaS or On-Premises 	Secure your software development with automated secrets detection & remediation for private or public source code.
+GitGuardian   Automated Secrets Detection 		Commercial 	SaaS or On-Premises 	Secure your software development with automated secrets detection & remediation for private or public source code.
 GitHub Advanced Security 	GitHub 	Open Source or Free 	SaaS or On-Premises 	GitHub Advanced Security uses CodeQL for Static Code Analysis, and GitHub Secret Scanning for identifying tokens. GitHub code scanning can import SARIF from any other SAST tool
 GitLab 	GitLab 	Commercial 	SaaS, Linux, Windows 	
 GolangCI-Lint 		Open Source or Free 		A Go Linters aggregator - One of the Linters is [gosec (Go Security)](https://github.com/securego/gosec), which is off by default but can easily be enabled.

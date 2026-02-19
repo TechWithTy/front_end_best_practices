@@ -30,10 +30,10 @@ Implemented features:
 
 Environment variables (optional):
 
-- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` — your Plausible domain (e.g. example.com). Defaults to `window.location.hostname`.
-- `NEXT_PUBLIC_PLAUSIBLE_TRACK_LOCALHOST` — set to `true` to track localhost.
-- `NEXT_PUBLIC_PLAUSIBLE_API_HOST` — override API host if self-hosting.
-- `NEXT_PUBLIC_PLAUSIBLE_HASH_MODE` — set to `true` to enable hash-based routing tracking.
+- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN`   your Plausible domain (e.g. example.com). Defaults to `window.location.hostname`.
+- `NEXT_PUBLIC_PLAUSIBLE_TRACK_LOCALHOST`   set to `true` to track localhost.
+- `NEXT_PUBLIC_PLAUSIBLE_API_HOST`   override API host if self-hosting.
+- `NEXT_PUBLIC_PLAUSIBLE_HASH_MODE`   set to `true` to enable hash-based routing tracking.
 
 These are read by `PlausibleTracker` during initialization.
 

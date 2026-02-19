@@ -1,6 +1,6 @@
 # Front End Best Practices
 
-A comprehensive, SEO-optimized library of markdown files, charts, and guides for modern frontend development. This resource is designed to give your developers—and AI assistants—clear, up-to-date context about top frontend technologies, frameworks, and workflows.
+A comprehensive, SEO-optimized library of markdown files, charts, and guides for modern frontend development. This resource is designed to give your developers and AI assistants clear, up-to-date context about top frontend technologies, frameworks, and workflows.
 
 ## 🚀 Purpose
 - Serve as a living reference for best practices in frontend architecture, design, testing, and deployment.

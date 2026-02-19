@@ -48,7 +48,7 @@ Why does this matter? Consider the old joke:
 That doesn't work without the Oxford.
 Use British-style en dashes
 
-While we default to American English in most things, we prefer using the British-style en dash ( – ) with a space either side rather than the longer em dash with no spaces (—) used in American English.
+While we default to American English in most things, we prefer using the British-style en dash ( – ) with a space either side rather than the longer em dash with no spaces ( ) used in American English.
 
     Example: "Don’t up vote your own content, and don’t ask other people to – post it and pray."
 

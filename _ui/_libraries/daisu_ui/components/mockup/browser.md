@@ -56,4 +56,4 @@ Layout
 
 Mockup
 
-Tailwind Browser mockup Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Browser mockup Component   Tailwind CSS Components ( version 5 update is here )

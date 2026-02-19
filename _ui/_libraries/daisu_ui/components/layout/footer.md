@@ -571,4 +571,4 @@ Layout
 
 Mockup
 
-Tailwind Footer Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Footer Component   Tailwind CSS Components ( version 5 update is here )

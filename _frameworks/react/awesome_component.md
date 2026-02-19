@@ -185,7 +185,7 @@ _Display overlay / modal / alert / dialog / lightbox / popup_
 
 ### Notification
 
-_Toaster / snackbar — Notify the user with a modeless temporary little popup_
+_Toaster / snackbar   Notify the user with a modeless temporary little popup_
 
 - [react-notifications-component](https://github.com/teodosii/react-notifications-component) - [demo](https://teodosii.github.io/react-notifications-component/) - Highly customizable and easy-to-use component for notifications.
 - [notistack](https://iamhosseindhv.com/notistack) - [demo](https://codesandbox.io/s/github/iamhosseindhv/notistack/tree/master/examples/simple-example??hidenavigation=1&module=%2FApp.js) - [docs](https://iamhosseindhv.com/notistack/api) - Highly customizable notification snackbars (toasts) that can be stacked on top of each other
@@ -225,7 +225,7 @@ _Fixed headers / scroll-up headers / sticky elements_
 
 ### Loader
 
-_Loaders / spinners / progress bars — Let the user know that something is loading_
+_Loaders / spinners / progress bars   Let the user know that something is loading_
 
 - [react-loader-spinner](https://github.com/mhnpd/react-loader-spinner) - Collection set of react-spinner for async operation.
 - [react-redux-loading-bar](https://github.com/mironov/react-redux-loading-bar) - Simple Loading Bar for Redux and React.

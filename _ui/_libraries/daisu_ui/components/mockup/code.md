@@ -74,4 +74,4 @@ Layout
 
 Mockup
 
-Tailwind Code mockup Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Code mockup Component   Tailwind CSS Components ( version 5 update is here )

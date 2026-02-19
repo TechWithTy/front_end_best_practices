@@ -1,6 +1,6 @@
 React Query Data Transformations
 
-10.03.2021 — ReactJs, React Query, JavaScript, TypeScript — 4 min read
+10.03.2021   ReactJs, React Query, JavaScript, TypeScript   4 min read
 transformations
 Photo by Joshua Sukoff
 
@@ -53,7 +53,7 @@ If you are working with REST though, you are constrained by what the backend ret
 
     It depends.
 
-— Every developer, always
+  Every developer, always
 
 Here are 3+1 approaches on where you can transform data with their respective pros and cons:
 0. On the backend

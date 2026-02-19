@@ -883,7 +883,7 @@ Added in: v10.9.0
 If set to true, all build scripts (e.g. preinstall, install, postinstall) from dependencies will run automatically, without requiring approval.
 warning
 
-This setting allows all dependencies—including transitive ones—to run install scripts, both now and in the future. Even if your current dependency graph appears safe:
+This setting allows all dependencies including transitive ones to run install scripts, both now and in the future. Even if your current dependency graph appears safe:
 
     Future updates may introduce new, untrusted dependencies.
     Existing packages may add scripts in later versions.

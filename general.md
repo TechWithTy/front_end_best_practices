@@ -293,7 +293,7 @@ considered if you target a particular presence on those and want to ensure the d
 <!-- prettier-ignore-end -->
 
 - 📖
-  [Getting started with cards — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
+  [Getting started with cards   Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 - 🛠 Test your page with the [Twitter card validator](https://cards-dev.twitter.com/validator)
 
 **[⬆ back to top](#-table-of-contents)**

@@ -227,4 +227,4 @@ Layout
 
 Mockup
 
-Tailwind Indicator Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Indicator Component   Tailwind CSS Components ( version 5 update is here )

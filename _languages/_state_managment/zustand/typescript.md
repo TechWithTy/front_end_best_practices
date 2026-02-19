@@ -377,10 +377,10 @@ const useBearStore = createBoundedUseStore(bearStore)
 
 Middlewares and their mutators reference
 
-    devtools — ["zustand/devtools", never]
-    persist — ["zustand/persist", YourPersistedState]
+    devtools   ["zustand/devtools", never]
+    persist   ["zustand/persist", YourPersistedState]
     YourPersistedState is the type of state you are going to persist, ie the return type of options.partialize, if you're not passing partialize options the YourPersistedState becomes Partial<YourState>. Also sometimes passing actual PersistedState won't work. In those cases, try passing unknown.
-    immer — ["zustand/immer", never]
-    subscribeWithSelector — ["zustand/subscribeWithSelector", never]
-    redux — ["zustand/redux", YourAction]
-    combine — no mutator as combine does not mutate the store
+    immer   ["zustand/immer", never]
+    subscribeWithSelector   ["zustand/subscribeWithSelector", never]
+    redux   ["zustand/redux", YourAction]
+    combine   no mutator as combine does not mutate the store

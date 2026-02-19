@@ -181,4 +181,4 @@ Layout
 
 Mockup
 
-Tailwind Drawer Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Drawer Component   Tailwind CSS Components ( version 5 update is here )

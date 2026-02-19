@@ -204,27 +204,27 @@ Some of these components include tables, cards, accordions, countdowns, carousel
 
 The Table component is used to display tabular data in rows and columns:
 
-Example Daisy Ui Table Component — Screenshot From Docs
+Example Daisy Ui Table Component   Screenshot From Docs
 
 The Card component acts as a container for displaying summarized content (e.g., product cards, user profiles):
 
-Example Daisy Ui Card Component — Screenshot From Docs
+Example Daisy Ui Card Component   Screenshot From Docs
 
 The Accordion component is used to show and hide content, but you can only expand one item at a time:
 
-Example Daisy Ui Accordion Component — Screenshot From Docs
+Example Daisy Ui Accordion Component   Screenshot From Docs
 
 The Countdown component lets you set a custom countdown with transition effect of the changing numbers:
 
-Example Daisy Ui Countdown Component — Screenshot From Docs
+Example Daisy Ui Countdown Component   Screenshot From Docs
 
 The Carousel component lets you easily create a carousel of images in a scrollable area:
 
-Example Daisy Ui Carousel Component — Screenshot From Docs
+Example Daisy Ui Carousel Component   Screenshot From Docs
 
 The Stat component is used to display statistical data:
 
-Example Daisy Ui Stat Component — Screenshot From Docs
+Example Daisy Ui Stat Component   Screenshot From Docs
 
 For more information about the components in the data display category and others, I recommend checking out daisyUI’s documentation.
 Feedback
@@ -233,19 +233,19 @@ The feedback category contains a collection of components that provide informati
 
 The Alert component is used to alert users about important events:
 
-Example Daisy Ui Alert Component — Screenshot From Docs
+Example Daisy Ui Alert Component   Screenshot From Docs
 
 The Loading component is used to render an animation to indicate a loading state:
 
-Example Daisy Ui Loading Component — Screenshot From Docs
+Example Daisy Ui Loading Component   Screenshot From Docs
 
 The Skeleton component‘s purpose is similar to the Loading component, but it shows the loading state of a component like this instead of as a loading circle:
 
-Example Daisy Ui Skeleton Component — Screenshot From Docs
+Example Daisy Ui Skeleton Component   Screenshot From Docs
 
 The Tooltip component is used to display information about an element when hovering over it:
 
-Example Daisy Ui Tooltip Component — Screenshot From Docs
+Example Daisy Ui Tooltip Component   Screenshot From Docs
 
 These are but a handful of the prebuilt components that daisyUI offers. Refer to the documentation to explore and learn more about the available components.
 Custom components
@@ -323,7 +323,7 @@ The @tailwindcss/typography plugin fixes this issue by providing a set of prose 
 
 Additionally, daisyUI adds some styles to @tailwindcss/typography so it can tailor the typography to the current theme. This way, your typography can stay consistent across boards:
 
-Example Daisy Ui Typography Styles — Screenshot From Docs
+Example Daisy Ui Typography Styles   Screenshot From Docs
 
 To use @tailwindcss/typography in your project, require it in your tailwind.config.js file like so:
 

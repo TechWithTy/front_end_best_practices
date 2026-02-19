@@ -120,4 +120,4 @@ Layout
 
 Mockup
 
-Tailwind Textarea Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Textarea Component   Tailwind CSS Components ( version 5 update is here )

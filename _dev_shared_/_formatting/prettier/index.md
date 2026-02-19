@@ -48,5 +48,5 @@ A Prettier Printer by James Long on React Conf 2017
 JavaScript Code Formatting by Christopher Chedeau on React London 2017
 Footnotes
 
-- Well actually, some original styling is preserved when practical—see empty lines and multi-line objects.
+- Well actually, some original styling is preserved when practical see empty lines and multi-line objects.
   Edit this page

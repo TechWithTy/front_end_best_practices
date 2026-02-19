@@ -41,7 +41,7 @@ The project is a web component library that currently only features a modal wind
 It currently has a test and build flow (via npm run test:prod and npm run build). It has a demo that is deployed manually to Firebase Hosting. You can see the demo here.
 Connect Travis CI to your project
 
-Most CI tools integrate seamlessly with Git services — especially GitHub. Go to travis-ci.com and sign up. I suggest logging in with your GitHub account — it’ll make things easier at later stages.
+Most CI tools integrate seamlessly with Git services   especially GitHub. Go to travis-ci.com and sign up. I suggest logging in with your GitHub account   it’ll make things easier at later stages.
 
 Inside Travis CI, there is a search bar on the left side of the screen; Click the + sign below it.
 
@@ -74,15 +74,15 @@ script:
 
 Let’s go over the parts:
 
-    language — We use JavaScript, but Travis calls it “node_js” (fine by me);
-    node_js — Pretty straight forward as well; we just state the version we want to use;
-    script — That’s just a set of bash commands to run. In our case, we echo some useful comments, install our dependencies (using Yarn) and then run our tests.
+    language   We use JavaScript, but Travis calls it “node_js” (fine by me);
+    node_js   Pretty straight forward as well; we just state the version we want to use;
+    script   That’s just a set of bash commands to run. In our case, we echo some useful comments, install our dependencies (using Yarn) and then run our tests.
 
 The CI process
 
 As mentioned above, the CI process mainly makes sure we didn’t break anything and that we are ready to merge/integrate. So this phase will include the following process: Clone -> yarn/npm install -> test
 
-We also want to speed up our builds, so we‘ll tell Travis to cache our npm or Yarn folder (or any other package manager you are using — Travis supports many).
+We also want to speed up our builds, so we‘ll tell Travis to cache our npm or Yarn folder (or any other package manager you are using   Travis supports many).
 
 We’re using Yarn; let’s tell Travis to cache the Yarn folder:
 
@@ -101,7 +101,7 @@ You can read more about caching here.
 
 The moment you push a change, Travis will trigger the build process.
 
-    Process started — Yarn, cache and tests are now running.
+    Process started   Yarn, cache and tests are now running.
 
 Click here to see the results.
 
@@ -122,9 +122,9 @@ So far, we’ve seen how to use CI to feel safer before merging changes into our
 
 The process of uploading the new and wonderful feature that was just merged is still manual. We need to manually type into our local machine’s console to deploy. It’s time to automate the process.
 
-The CD process here will be pretty simple — just upload the dist to Firebase.
+The CD process here will be pretty simple   just upload the dist to Firebase.
 
-If you’ve followed so far, you might be able to deduce that we’ll just use the same command line directives we use on our own computer — only we’ll tell the remote VM to do it for us:
+If you’ve followed so far, you might be able to deduce that we’ll just use the same command line directives we use on our own computer   only we’ll tell the remote VM to do it for us:
 
 install:
   - npm install -g firebase-tools
@@ -210,8 +210,8 @@ A bit bigger, but the idea remains the same.
 
 First, I create the jobs property which describes the two stages we’ve seen before:
 
-    test — runs the yarn and the tests;
-    deploy — runs the Firebase install, the build, and the deploy to Firebase.
+    test   runs the yarn and the tests;
+    deploy   runs the Firebase install, the build, and the deploy to Firebase.
 
 At this point, for every push to any branch, the whole process will run. We’d like the tests to run for PRs and the deploy for push to master (e.g., merge).
 
@@ -243,7 +243,7 @@ stages:
     # require the type to be push to master
     if: type = push AND branch = master
 
-The new property shown in the code above — stages — helps us to easily define conditions to run each stage of our pipeline. I define the test to run if the type of trigger is a PR and the deploy if the trigger was a push to master.
+The new property shown in the code above   stages   helps us to easily define conditions to run each stage of our pipeline. I define the test to run if the type of trigger is a PR and the deploy if the trigger was a push to master.
 
 If you just create a new branch and push to GitHub, nothing will happen on Travis, because it doesn’t apply to any condition. You can see what happens with those build requests in the requests page of your repository.
 

@@ -21,11 +21,11 @@ Increasingly, this problem became a serious one for organizations whose business
 Security also began to present itself as a pressing concern. As hackers became more organized and efficient at discovering and exploiting vulnerabilities, the work of security – patching these exploits – had to be done quickly, almost immediately. Waiting for dev to roll out fixes only for them to be implemented months later was no longer viable.
 CI/CD: The Bridge That Make DevOps Run Smoothly
 
-If ‘dev’ and ‘ops’ are two ends of a bridge, then CI/CD connects the two sides. Or rather, it is the technology and workflows that allow for the seamless and continuous passage of information — development releases — between its two ends.
+If ‘dev’ and ‘ops’ are two ends of a bridge, then CI/CD connects the two sides. Or rather, it is the technology and workflows that allow for the seamless and continuous passage of information   development releases   between its two ends.
 
 With CI/CD, rather than waiting for an intermittent release cycle slowed down by pauses, code updates are continuously pushed from software developers where they can be parsed and then integrated leveraging as much automation as possible.
 
-CI/CD pipelines enforce a rigid series of checks intended to standardize the vital QA process — although humans oversee the process and can get involved manually at any time. Finally, code is continuously released onto production services thereby becoming available to end-users. In more advanced pipelines, the deployment of infrastructure to accommodate new code iterations can even be part of the pipeline management tool itself.
+CI/CD pipelines enforce a rigid series of checks intended to standardize the vital QA process   although humans oversee the process and can get involved manually at any time. Finally, code is continuously released onto production services thereby becoming available to end-users. In more advanced pipelines, the deployment of infrastructure to accommodate new code iterations can even be part of the pipeline management tool itself.
 What is the Difference Between CI and CD?
 
 If we return to the metaphor of CI/CD being the bridge that allows ‘dev’ and ‘ops’ to connect, then continuous integration and continuous development are its two endpoints.
@@ -40,7 +40,7 @@ What is Continuous Deployment?
 
 On the other end of our proverbial bridge we have continuous delivery. The CD in CI/CD, however, can also stand for continuous deployment.
 
-What’s the difference between continuous delivery and continuous deployment? There’s one critical difference: in continuous deployment, releases to end users — the final stage in the development pipeline — happens automatically. Continuous delivery stops the process one step short of that, carrying the automation all the way through to the final stage before deployment (hence the name).
+What’s the difference between continuous delivery and continuous deployment? There’s one critical difference: in continuous deployment, releases to end users   the final stage in the development pipeline   happens automatically. Continuous delivery stops the process one step short of that, carrying the automation all the way through to the final stage before deployment (hence the name).
 
 Continuous delivery involves guiding code through a series of stages which are undertaken after the integration part of the pipeline (which typically consists of building and initial testing) are completed. These are:|
 
@@ -49,7 +49,7 @@ Continuous delivery involves guiding code through a series of stages which are u
 ● Deployment to production: It is here that continuous delivery and continuous deployment differ. In continuous delivery this final process requires human (manual) intervention.
 What is a CI/CD Pipeline?
 
-The CI/CD pipeline refers to the series of steps that are undertaken as code is produced by developers and then made to pass through a series of automated tests on its way to ultimately being delivered to users. We have covered many of those — especially in the CD phase of the process — above.
+The CI/CD pipeline refers to the series of steps that are undertaken as code is produced by developers and then made to pass through a series of automated tests on its way to ultimately being delivered to users. We have covered many of those   especially in the CD phase of the process   above.
 
 To fill in the missing pieces:
 What Does the CI Part of the Pipeline Look Like?
@@ -73,7 +73,7 @@ In traditional development approaches, developers may be encouraged by team lead
 
 CI/CD calls for a radically different approach and this needs to be communicated to all team members. Because the testing phase is automated, it encourages developers to work as quickly as possible on what they do best – development.
 
-Because QA is carried out automatically — but that process can only be initiated once the pipeline is triggered — it makes sense for developers to be encouraged to commit as frequently as possible.
+Because QA is carried out automatically   but that process can only be initiated once the pipeline is triggered   it makes sense for developers to be encouraged to commit as frequently as possible.
 
 Some integrated development environments (IDEs) even have a feature for automatic periodic committing. But even if your tech stack doesn’t have such a tool, developers can be encouraged to commit code to the repository as often as it makes sense for them to do so. The more frequently code can be integrated into the pipeline, the more quickly the iterative cycle can self-improve, leading to faster product releases.
 Eliminate All Bypass Mechanisms
@@ -94,7 +94,7 @@ Use Containers for Testing
 
 A vital part of the QA process is emulating the performance of packaged code on the type of system that it is expected to be run aboard.
 
-Given that many development teams are tasked with developing products for several different operating systems and architectures simultaneously, this can quickly result in “VM-sprawl” — having to deploy a large number of resource-intensive systems solely in order to perform basic system testing.
+Given that many development teams are tasked with developing products for several different operating systems and architectures simultaneously, this can quickly result in “VM-sprawl”   having to deploy a large number of resource-intensive systems solely in order to perform basic system testing.
 
 A compelling alternative to this bloat-by-testing is using container programs such as Docker instead. These compress operating systems into barebones packages, therefore also making them highly transportable between teams not physically co-located. Using this kind of technology can make it much more effective to quickly spin up new testing environments as the pipeline requires it.
 Why Should You Start Your CI/CD Pipeline Today

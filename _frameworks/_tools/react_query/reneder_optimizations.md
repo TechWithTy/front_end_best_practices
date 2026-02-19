@@ -1,6 +1,6 @@
 React Query Render Optimizations
 
-20.03.2021 — ReactJs, React Query, JavaScript, TypeScript — 4 min read
+20.03.2021   ReactJs, React Query, JavaScript, TypeScript   4 min read
 optimizations
 Photo by Lukasz Szmigiel
 

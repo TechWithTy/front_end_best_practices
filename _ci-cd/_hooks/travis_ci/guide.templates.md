@@ -480,13 +480,13 @@ Deploying to Serverless Environments
 Serverless platforms like AWS Lambda, Azure Functions, and Google Cloud Functions allow you to run code without provisioning or managing servers.
 
 1. Prerequisites:
-— Your application is packaged according to the serverless platform’s requirements.
-— Necessary permissions and credentials to deploy to the serverless platform.
+  Your application is packaged according to the serverless platform’s requirements.
+  Necessary permissions and credentials to deploy to the serverless platform.
 
 2. Travis CI Configuration for Serverless Deployments:
-— Use the Travis CI environment to store credentials securely.
-— Install the serverless framework or platform-specific CLI tools in your Travis CI environment.
-— Deploy using the appropriate command for your serverless platform.
+  Use the Travis CI environment to store credentials securely.
+  Install the serverless framework or platform-specific CLI tools in your Travis CI environment.
+  Deploy using the appropriate command for your serverless platform.
 
 script:
   - npm install -g serverless
@@ -498,19 +498,19 @@ Managing Artifacts in Cloud Storage
 Storing build artifacts in cloud storage services like AWS S3, Azure Blob Storage, and Google Cloud Storage is crucial for versioning, sharing, and archiving purposes.
 
 1. AWS S3 Artifact Storage:
-— Use the AWS CLI in Travis CI to copy artifacts to an S3 bucket.
+  Use the AWS CLI in Travis CI to copy artifacts to an S3 bucket.
 
 after_success:
   - aws s3 cp ./build s3://my-bucket/builds/my-application/$TRAVIS_BUILD_NUMBER --recursive
 
 2. Azure Blob Storage for Artifacts:
-— Use Azure CLI or Azure Storage SDKs to manage artifacts.
+  Use Azure CLI or Azure Storage SDKs to manage artifacts.
 
 after_success:
   - az storage blob upload-batch -s ./build -d my-container --account-name myaccount
 
 3. Google Cloud Storage (GCS) Artifacts:
-— Utilize `gsutil` from the Google Cloud SDK for artifact management.
+  Utilize `gsutil` from the Google Cloud SDK for artifact management.
 
 after_success:
   - gsutil cp ./build gs://my-bucket/builds/my-application/$TRAVIS_BUILD_NUMBER

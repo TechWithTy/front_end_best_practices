@@ -142,4 +142,4 @@ Layout
 
 Mockup
 
-Tailwind Hero Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Hero Component   Tailwind CSS Components ( version 5 update is here )

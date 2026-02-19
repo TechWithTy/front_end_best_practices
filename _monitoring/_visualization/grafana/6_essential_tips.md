@@ -1,4 +1,4 @@
-Elevating your Grafana dashboards involves more than just technical skill — it requires an understanding of design principles, data integration, and user interaction. These eight tips will help you move beyond basic line charts to create dashboards that are not only informative but also visually engaging and intuitive.
+Elevating your Grafana dashboards involves more than just technical skill   it requires an understanding of design principles, data integration, and user interaction. These eight tips will help you move beyond basic line charts to create dashboards that are not only informative but also visually engaging and intuitive.
 
 1. Create a header
 

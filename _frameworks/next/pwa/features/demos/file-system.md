@@ -4,7 +4,7 @@ Browse: [https://progressier.com/pwa-capabilities/file-system-desktop](https://p
 Last updated: 2025-11-07
 
 ## Summary
-The demo showcases the File System Access API on desktop browsers—opening files, editing them in place, and saving changes back to disk without server round-trips.
+The demo showcases the File System Access API on desktop browsers opening files, editing them in place, and saving changes back to disk without server round-trips.
 
 ## Implementation Insights
 - Requires user gestures for `showOpenFilePicker` / `showSaveFilePicker`, as demonstrated via buttons in the UI.

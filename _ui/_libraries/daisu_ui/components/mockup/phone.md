@@ -57,4 +57,4 @@ Layout
 
 Mockup
 
-Tailwind Phone mockup Component — Tailwind CSS Components ( version 5 update is here )
+Tailwind Phone mockup Component   Tailwind CSS Components ( version 5 update is here )

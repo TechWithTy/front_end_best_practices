@@ -1,6 +1,6 @@
 # PWA Features Index
 
-Browse: [https://whatpwacando.today/](https://whatpwacando.today/) — reference demos for feature coverage.
+Browse: [https://whatpwacando.today/](https://whatpwacando.today/)   reference demos for feature coverage.
 
 | Feature | Doc |
 | --- | --- |

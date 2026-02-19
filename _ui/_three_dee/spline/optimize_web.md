@@ -29,7 +29,7 @@ To investigate how to optimize Spline scenes for web performance, we created a G
 
 We used two tools for testing:
 
-    Lighthouse – This is Google's free performance auditing tool that allows you to run local lab tests on your own computer. It's now built into Chrome DevTools — you can find it by clicking the Lighthouse tab (open your browser in Incognito mode to exclude the performance effects of your browser extensions).
+    Lighthouse – This is Google's free performance auditing tool that allows you to run local lab tests on your own computer. It's now built into Chrome DevTools   you can find it by clicking the Lighthouse tab (open your browser in Incognito mode to exclude the performance effects of your browser extensions).
     DebugBear – This is a web performance monitoring tool that includes both real user monitoring (RUM) and remote lab testing from different locations around the globe. It comes with a free website testing tool and a two-week free trial if you want to use the full functionality.
 
 What's the difference between RUM and lab testing?
@@ -65,12 +65,12 @@ Some of Spline's performance issues are hard to diagnose as the scenes are outpu
 
 On the other hand, as the Spline scene will be the largest above-the-fold content element on most pages, performance analysis tools won't be able to detect the issues and will show unreliable or unusable results.
 
-For example, in our first experiment, we removed everything but the Spline scene from the page — Lighthouse couldn't even calculate an overall performance score!:
+For example, in our first experiment, we removed everything but the Spline scene from the page   Lighthouse couldn't even calculate an overall performance score!:
 A Lighthouse local lab report (in the Chrome browser) of our first experiment
 A Lighthouse local lab report (in the Chrome browser) of our first experiment
 Best Practices to Speed Up Your Spline Scenes
 
-So — what can you do to make your Spline scenes load faster in the browser?
+So   what can you do to make your Spline scenes load faster in the browser?
 
 The bad news is that there's no general good advice that works for everyone, as the solution will depend on the characteristics of your Spline scene (e.g. its size and complexity), your website stack and hosting setup, your technical skills, and other factors.
 
@@ -92,7 +92,7 @@ Results of Spline's performance test
 You can also find a Performance tutorial in the Spline documentation, which can give you further ideas on how to optimize your scene for performance before exporting it.
 2. Make an Optimized JavaScript-Based Scene for More Complex Graphics
 
-Spline offers various formats in which you can export your scene — for example, you can export it for 3D printing.
+Spline offers various formats in which you can export your scene   for example, you can export it for 3D printing.
 
 As we're now speaking about web development, let's see how you can prevent some of the web performance issues that may arise in the browser by optimizing your export.
 
@@ -103,7 +103,7 @@ Export Type 	Where to find the option in the Spline app? 	When to choose it? 	Wh
 Vanilla JavaScript or web content 	Export > Code Export > Vanilla js (Web Content) > Download Bundled ZIP 	If you want to embed the scene into an HTML page (you can see a code example in our GitHub demo). 	self-hosted
 Native JavaScript (ECMAScript 6) application 	Export > Code Export > Vanilla js (Web Content) > Download ZIP 	If you want to add the scene to an ECMAScript application (you can see a code example in our GitHub demo). 	on the prod.spline.design domain
 JavaScript code optimized for the supported libraries (Three.js, React, Next.js, and React-three-fiber) 	Export > Code Export > [library-name] 	If you use one of these libraries, as these code embeds provide seamless integrations. 	on the prod.spline.design domain
-Inside the Spline Viewer web component 	Export > Viewer 	If you want to embed the scene into a pre-loaded viewer (added as a web component to the page — see examples here) or export it into Webflow. As Spline deeply integrates with Webflow, it allows you to further edit and optimize your scene. 	on the prod.spline.design domain
+Inside the Spline Viewer web component 	Export > Viewer 	If you want to embed the scene into a pre-loaded viewer (added as a web component to the page   see examples here) or export it into Webflow. As Spline deeply integrates with Webflow, it allows you to further edit and optimize your scene. 	on the prod.spline.design domain
 
 For most readers of this article, exporting it as web content will be the best option (this is also what we used in our experiments). It adds the scene as a JavaScript module to the HTML page so that it won't be a render-blocking resource and the Spline runtime and scene will only download on the pages where they're actually used:
 
@@ -128,7 +128,7 @@ Play Settings tab in Spline's Export panel
 
 If your Spline scene is less complex and interactive, consider exporting it as an image or video file.
 
-The main performance advantage of this export type is that you don't have to download the Spline runtime or execute your scene at all — on your website, you'll just have an ordinary image or video file.
+The main performance advantage of this export type is that you don't have to download the Spline runtime or execute your scene at all   on your website, you'll just have an ordinary image or video file.
 
 Basically, you get rid of all the performance issues caused by Spline, and your CPU time won't be longer than on a typical website without any 3D content on it. It may feel like cheating, but it can work in many cases.
 
@@ -140,16 +140,16 @@ Before starting the recorder, you can also select which options you want to enab
 Options of Spline's Video Recording export type
 Options of Spline's Video Recording export type
 
-If you want to see what a Spline scene looks like as a video embed on a real-world website, check out the homepage of the Luma event manager — it doesn't even look like a video, but a carefully crafted 3D animated illustration.
+If you want to see what a Spline scene looks like as a video embed on a real-world website, check out the homepage of the Luma event manager   it doesn't even look like a video, but a carefully crafted 3D animated illustration.
 
-You can find another example on the homepage of the Scale AI data engine. While the first Spline design is JavaScript code outputted into a <canvas> element, the second one is an embedded video — this one doesn't look like a video either, but like a complex 3D data animation:
+You can find another example on the homepage of the Scale AI data engine. While the first Spline design is JavaScript code outputted into a <canvas> element, the second one is an embedded video   this one doesn't look like a video either, but like a complex 3D data animation:
 Scale's homepage with a Spline scene added as video
 Scale's homepage with a Spline scene added as video
 4. Self-Host Your Spline Files
 
 Most of Spline's auto-generated JavaScript export options download your scene from Spline's own server.
 
-For example, this is the code you get when you export your scene as an ECMAScript application — as you can see in the last line, the scene is downloaded from the prod.spline.design domain:
+For example, this is the code you get when you export your scene as an ECMAScript application   as you can see in the last line, the scene is downloaded from the prod.spline.design domain:
 
 import { Application } from '@splinetool/runtime';
 
@@ -169,7 +169,7 @@ If you used one of the other export options, upload the runtime and scene files 
 In addition to the performance benefits, another advantage of self-hosting is that you don't have to add a cookie notice for your Spline scenes to comply with GDPR and other privacy laws, as everything comes from your first-party server.
 5. Use GZIP or Brotli Compression on Your Server
 
-If you decide to self-host your Spline scenes, GZIP or Brotli text compression is the most important hosting feature you need to pay attention to (Brotli provides a better compression ratio but comes with a bit poorer browser support — however, it's still supported by all modern browsers).
+If you decide to self-host your Spline scenes, GZIP or Brotli text compression is the most important hosting feature you need to pay attention to (Brotli provides a better compression ratio but comes with a bit poorer browser support   however, it's still supported by all modern browsers).
 
 Note that while your Spline scene displays like a 3D illustration, it's entirely text content (if you load it as JavaScript), so server-side text compression does make a huge difference performance-wise. Plus, it can help you avoid the Avoid enormous network payloads error in Lighthouse.
 

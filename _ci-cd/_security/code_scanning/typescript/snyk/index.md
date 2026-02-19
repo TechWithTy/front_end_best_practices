@@ -1,6 +1,6 @@
 peScript Code Checker
 
-Check your TypeScript code security before your next PR commit and get alerts of critical bugs using our free TypeScript code checker — powered by Snyk Code. 
+Check your TypeScript code security before your next PR commit and get alerts of critical bugs using our free TypeScript code checker   powered by Snyk Code. 
 
 Sign up for free to unlock the the full power of Snyk, no credit card required.
 Get code security right from your IDE

@@ -8,7 +8,7 @@ Progressier’s example connects to a BLE peripheral, reads sensor data, and vis
 
 ## Implementation Insights
 - Uses `navigator.bluetooth.requestDevice` with filters and optional services.
-- Shows the GATT connection lifecycle—connecting, reading characteristics, and handling disconnects.
+- Shows the GATT connection lifecycle connecting, reading characteristics, and handling disconnects.
 - Provides fallback messaging for browsers/devices without Web Bluetooth support.
 
 ## Deal Scale Implementation Example

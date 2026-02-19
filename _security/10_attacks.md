@@ -10,7 +10,7 @@ Unlock the latest insights from over 550 cybersecurity leaders and learn how to 
 
 Get your Free Copy
 
-Your web application's front end is the first part seen everywhere. It’s the first thing that regular users and potential customers look at but it’s also the first thing that an attacker sees—it's the main door to your attack surface.
+Your web application's front end is the first part seen everywhere. It’s the first thing that regular users and potential customers look at but it’s also the first thing that an attacker sees it's the main door to your attack surface.
 
 Front-end security demands have increased a lot over the past decade. There are more sophisticated attacks taking place against web application front ends these days, whereas in the past most attacks were straightforward, resulting in easier detection. More recently, attacks have become stealthier, harder to detect, and often discovered far too late.
 
@@ -33,7 +33,7 @@ Clickjacking attacks rank as one of the largest types of attacks under the XSS a
 
 Geolocation stealing
 
-With XSS attacks, an attacker can inject JavaScript libraries, which then execute on the client side—logging the user's IP address, geolocation and other personal details. These can then be used by the attacker to target the end user with personalized scams or phishing.
+With XSS attacks, an attacker can inject JavaScript libraries, which then execute on the client side logging the user's IP address, geolocation and other personal details. These can then be used by the attacker to target the end user with personalized scams or phishing.
 
 Cryptomining
 
@@ -46,7 +46,7 @@ DoS attacks and DDoS attacks on web applications are common. They're also diffic
 
 DoS attacks, which originate from a single system or small number of them, can often be tackled by simply blocking the end system's IP address.
 
-DDoS attacks, on the other hand, are more difficult to block. This is because certain DDoS attacks originate from hundreds or thousands of systems at the same time—meaning they also make multiple thousands or millions of requests to your web application simultaneously—leading to system strain and a serious slowdown of your web application.
+DDoS attacks, on the other hand, are more difficult to block. This is because certain DDoS attacks originate from hundreds or thousands of systems at the same time meaning they also make multiple thousands or millions of requests to your web application simultaneously leading to system strain and a serious slowdown of your web application.
 
 Employing rate-limiting in your web application can prevent these types of attacks. Look to services like CloudFlare or Imperva, or hardware-based solutions; these can filter such attacks before they reach their intended target.
 3. Preventing cross-site request forgery (CSRF)
@@ -72,7 +72,7 @@ Often, web application front ends are built using commonly available frameworks.
 Using modern and frequently updated frameworks can help boost your web application's security. These frameworks frequently include built-in authentication handlers and other security features that help standardize the security practices needed for your web application.
 6. Auditing of 3rd-party libraries in use
 
-3rd-party libraries are in use everywhere. They help speed up coding time and make implementation of new features into your web application that much easier—but any possible vulnerability in these 3rd-party libraries can impact your web application's overall security as well.
+3rd-party libraries are in use everywhere. They help speed up coding time and make implementation of new features into your web application that much easier but any possible vulnerability in these 3rd-party libraries can impact your web application's overall security as well.
 
 For example, many web applications rely on 3rd-party libraries for handling billing and customer purchases. Any vulnerability in these billing libraries can cause multiple security issues in your web application, such as the leaking of user information or redirecting users to phishing domains to capture card details.
 
@@ -89,7 +89,7 @@ While iFrames make your development process easier by allowing you to incorporat
 iFrame-based attacks can be used to play videos, open malicious forms (which look legitimate), and trick users into downloading malicious content that can lead to a degraded overall experience of your web application.
 9. Restricting available Feature Policy
 
-By default, your web application can access or request any feature from your end user's device—while this may be a nice-to-have during the development stage, if left enabled it can lead to attackers exploiting your web application and using these unrestricted feature flags/policies to ask end users' devices to enable certain features that appear legitimately offered by your web application itself.
+By default, your web application can access or request any feature from your end user's device while this may be a nice-to-have during the development stage, if left enabled it can lead to attackers exploiting your web application and using these unrestricted feature flags/policies to ask end users' devices to enable certain features that appear legitimately offered by your web application itself.
 
 Using the Feature-Policy HTTP header is ideal for preventing such requests from originating from your web application.
 
@@ -132,4 +132,4 @@ Conclusion
 
 Securing your web application's front end has become an increasingly important factor to consider. With applications facing multiple threats on a daily basis, dealing with everything from automated bots to targeted attacks, keeping your application's front end safe has never been more crucial.
 
-Hardening the front-end side of your web apps remains a challenge, but incorporating security from the start—and relying on modern web frameworks, content security policy, frequent auditing, scanning of 3rd-party libraries in use, as well as analyzing your attack surface—can greatly increase the chances of keeping your web application’s front end safe.
+Hardening the front-end side of your web apps remains a challenge, but incorporating security from the start and relying on modern web frameworks, content security policy, frequent auditing, scanning of 3rd-party libraries in use, as well as analyzing your attack surface can greatly increase the chances of keeping your web application’s front end safe.

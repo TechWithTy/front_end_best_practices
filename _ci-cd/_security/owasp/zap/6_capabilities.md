@@ -11,10 +11,10 @@ OWASP ZAP is a penetration testing tool that helps developers and security profe
 OWASP ZAP can identify vulnerabilities in web applications including compromised authentication, exposure of sensitive data, security misconfigurations, SQL injection, cross-site scripting (XSS), insecure deserialization, and components with known vulnerabilities.
 6 Key Capabilities of the OWASP ZAP Tool
 
-ZAP sits between a web application and a penetration testing client. It works as a proxy—capturing the data transmitted and determining how the application responds to possibly malicious requests. Professionals of various skill levels and job roles can use OWASP ZAP.
+ZAP sits between a web application and a penetration testing client. It works as a proxy capturing the data transmitted and determining how the application responds to possibly malicious requests. Professionals of various skill levels and job roles can use OWASP ZAP.
 1. Active vs. Passive Scans
 
-ZAP offers two types of scans—active and passive. Passive scans check HTTP requests and application responses for known indicators of security vulnerabilities and cannot make changes to requests. Active scans can create and modify requests sent to the application, sending test requests that surface vulnerabilities you cannot catch using a passive scan.
+ZAP offers two types of scans active and passive. Passive scans check HTTP requests and application responses for known indicators of security vulnerabilities and cannot make changes to requests. Active scans can create and modify requests sent to the application, sending test requests that surface vulnerabilities you cannot catch using a passive scan.
 
 Active scans are generally considered more effective in finding application vulnerabilities because the testing suite injects various requests that surface vulnerabilities. However, these scans actively attempt to attack the application and might create or delete data.
 

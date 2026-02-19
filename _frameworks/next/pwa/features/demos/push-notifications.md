@@ -8,7 +8,7 @@ The demo showcases the full lifecycle of enabling notifications: requesting perm
 
 ## Implementation Insights
 - Uses the Web Push API with VAPID keys to send payloads from a backend endpoint.
-- Highlights progressive enhancement—UI changes depending on permission state (default, granted, denied).
+- Highlights progressive enhancement UI changes depending on permission state (default, granted, denied).
 - Demonstrates notification click handling that focuses or opens a client window.
 
 ## Deal Scale Implementation Example

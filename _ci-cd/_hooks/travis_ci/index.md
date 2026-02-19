@@ -1,7 +1,7 @@
 https://www.travis-ci.com/
 
  How developers build simple, trustworthy CI/CD pipelines
-Join hundreds of thousands who define tests and deployments in minutes, then scale up simply with parallel or multi-environment builds using Travis CI’s precision syntax—all designed with the developer experience in mind.
+Join hundreds of thousands who define tests and deployments in minutes, then scale up simply with parallel or multi-environment builds using Travis CI’s precision syntax all designed with the developer experience in mind.
 Where developers trust Travis CI with testing and automation
 Klaviyo uses Travis CI
 Microsoft Uses Travis CI
@@ -266,7 +266,7 @@ after_success:
 notifications:
   email: false
 
-Run tests against different versions of your runtimes or dependencies—or even multiple languages—for comprehensive automation and absolute quality guarantees on your way to production.
+Run tests against different versions of your runtimes or dependencies or even multiple languages for comprehensive automation and absolute quality guarantees on your way to production.
 The most resilient name in CI/CD
 Others commodify CI/CD, building overly complex DevSecOps Platforms. We remain steadfast in our original mission to help developers conquer their CI/CD pipelines faster, more fluently, and, dare we say… with more fun?
 Why pay for CI/CD
