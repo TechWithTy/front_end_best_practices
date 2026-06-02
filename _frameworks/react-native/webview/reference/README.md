@@ -10,3 +10,19 @@ Last updated: 2025-11-07
 - `translations.md` – Links to translated reference material.
 
 Each document preserves the original descriptions, tables, and examples from the upstream reference while aligning with Deal Scale’s modular doc structure. Use these files alongside `overview.md` for platform integration guidance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

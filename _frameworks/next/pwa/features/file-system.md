@@ -9,3 +9,19 @@ Read and write local files (e.g., CSV lead lists) directly without traditional u
 3. Securely parse selected files client-side (CSV parser already in `lib/_utils`).
 4. Request `FileSystemWritableFileStream` for exporting reports.
 5. Handle permission revocation and cleanup handles when users sign out.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

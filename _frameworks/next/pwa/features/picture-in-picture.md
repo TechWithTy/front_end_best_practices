@@ -9,3 +9,19 @@ Keep dashboards (e.g., live calls, training videos) visible as floating windows 
 3. Sync state via `BroadcastChannel` or `postMessage` between main window and PiP document.
 4. Provide controls to close PiP and return focus to the main app.
 5. Evaluate UX for multi-window interactions; guard behind feature flag initially.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

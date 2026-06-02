@@ -8,3 +8,19 @@ Capture and share screens during collaboration or onboarding sessions using Capt
 2. When available, use Capture Handle APIs to control remote surfaces (Chrome Origin Trial).
 3. Provide UI to stop sharing and revoke handles.
 4. Encrypt/secure streams if transmitting to backend services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -108,3 +108,19 @@ Enables Payment Request API (e.g., Google Pay) inside the WebView. Default `fals
 | Type    | Required | Platform |
 | ------- | -------- | -------- |
 | boolean | No       | Android  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

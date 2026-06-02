@@ -16,3 +16,19 @@ The Local First Software “Learn” directory curates articles and talks that e
 ## Notes for Deal Scale
 - Use the manifesto and CRDT resources when evaluating deeper offline capabilities beyond our current service-worker caching approach.
 - The directory is a good reference for future roadmap items (e.g., collaborative campaign editing or resilient lead notes) should we shift toward local-first architecture.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,3 +17,19 @@ User completes onboarding and is prompted to install the PWA.
 
 ## Follow-ups
 - Manual test on Chrome/Edge to confirm OS prompt behaviour.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

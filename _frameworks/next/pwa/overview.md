@@ -7,3 +7,19 @@ Deal Scale treats the dashboard as an installable, offline-friendly experience t
 - **Timely updates:** Push notifications, install prompts, and update toasts keep operators informed without requiring the browser chrome.
 
 These goals drive every entry in this folder. Review the other documents for implementation and testing details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

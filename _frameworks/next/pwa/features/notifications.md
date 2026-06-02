@@ -17,4 +17,20 @@ Deliver push notifications even when the dashboard is closed to alert users abou
 
 Use “What PWA Can Do Today” to verify platform support for push and declarative web push features before extending functionality.[^what-pwa]
 
-[^what-pwa]: What PWA Can Do Today   [https://whatpwacando.today/](https://whatpwacando.today/)
+[^what-pwa]: What PWA Can Do Today — [https://whatpwacando.today/](https://whatpwacando.today/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

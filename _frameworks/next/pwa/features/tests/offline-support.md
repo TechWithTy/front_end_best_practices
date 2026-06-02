@@ -17,3 +17,19 @@ User loads analytics, goes offline, and continues interacting; background sync q
 
 ## Follow-ups
 - Playwright scenario toggling network via Chrome DevTools protocol.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

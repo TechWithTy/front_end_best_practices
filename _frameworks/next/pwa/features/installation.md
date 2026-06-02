@@ -9,3 +9,19 @@ Allow users to install the PWA onto their devices from supported browsers.
 3. Use `useInstallPrompt` to capture the `beforeinstallprompt` event and store the deferred prompt.
 4. Render `InstallPrompt` after meaningful engagement (e.g., campaign launch completion) and call `prompt()`.
 5. Listen for `appinstalled` to log telemetry, award badges, or hide the banner.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

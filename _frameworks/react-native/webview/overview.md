@@ -42,3 +42,19 @@ export function DealScaleWebview({ uri }: { uri: string }) {
 - Enforce per-tenant origin allowlists; reject unexpected redirects in `onShouldStartLoadWithRequest`.
 - Use the messaging bridge to bubble analytics events back into our Redux/Zustand stores.
 - Provide offline fallback by layering PWA caching (if the remote site supports it) and showing a reconnect banner when `onError` fires.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

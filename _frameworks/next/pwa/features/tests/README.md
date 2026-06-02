@@ -9,3 +9,19 @@ Template sections:
 4. **Follow-ups** – Manual or Playwright tests.
 
 Add one file per feature (mirroring parent filenames).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,3 +8,19 @@ Record or share a specific DOM element (e.g., analytics chart) instead of the en
 2. Mark target elements with capture metadata and expose toggle in UI.
 3. When capture is active, pipe element stream to recording or sharing workflows.
 4. Fall back to full-screen capture if API unavailable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,4 +14,20 @@ Workflow:
 2. Prototype in an isolated sandbox before integrating into Deal Scale.
 3. Update `roadmap.md` with findings and the required browser versions.
 
-[^what-pwa]: What PWA Can Do Today   [https://whatpwacando.today/](https://whatpwacando.today/)
+[^what-pwa]: What PWA Can Do Today — [https://whatpwacando.today/](https://whatpwacando.today/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

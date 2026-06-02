@@ -8,3 +8,19 @@ Prevent device from sleeping during lengthy workflows (e.g., live campaign monit
 2. Reacquire lock on visibility changes (`document.visibilitychange`).
 3. Provide UI toggle so users can opt out.
 4. Release lock when workflow ends to conserve battery.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

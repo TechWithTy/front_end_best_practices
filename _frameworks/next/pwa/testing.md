@@ -10,3 +10,19 @@ Guidelines:
 - Run `pnpm test:pwa` on every PWA-related change.
 - Extend `tests/pwa/pwa.spec.ts` with new hook/store behaviour.
 - Use Playwright (`test:stores:playwright`) when native-like UI regression coverage is needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,4 +9,20 @@ Receive push notifications without a long-lived service worker by registering de
 3. Update `/api/push/send` to detect declarative recipients and skip Web Push payload when the browser handles delivery.
 4. Maintain capability detection and analytics to decide when to use declarative vs. classic push.
 
-[^what-pwa]: What PWA Can Do Today   [https://whatpwacando.today/](https://whatpwacando.today/)
+[^what-pwa]: What PWA Can Do Today — [https://whatpwacando.today/](https://whatpwacando.today/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

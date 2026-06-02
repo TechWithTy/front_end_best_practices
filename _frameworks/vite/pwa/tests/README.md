@@ -58,3 +58,19 @@ Validate the Vite `vite-plugin-pwa` integration end to end:
 ## Follow-Ups
 - Add contract tests for push notification integration once backend VAPID endpoints are mirrored.
 - Automate assets generator check in CI (fail if icons missing or stale).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

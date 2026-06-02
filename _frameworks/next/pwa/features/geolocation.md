@@ -9,3 +9,19 @@ Request user location to tailor market analytics or map-based lead searches.
 3. Feed coordinates into existing market or map stores (`lib/stores/leadsMarket`).
 4. Cache last-known location in IndexedDB for offline defaults.
 5. Provide fallback input (manual address) when permission is denied.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

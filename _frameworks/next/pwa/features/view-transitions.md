@@ -9,3 +9,19 @@ Use the View Transitions API to animate between dashboard pages/components, crea
 3. Provide CSS for pseudo-elements (`::view-transition-old`, `::view-transition-new`).
 4. Fallback gracefully for browsers without support (no animations).
 5. Evaluate performance impact and ensure transitions don’t conflict with existing framer-motion animations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

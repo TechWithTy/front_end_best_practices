@@ -8,3 +8,19 @@ Place virtual property models or run immersive training using WebXR APIs.
 2. Load lightweight scene (Three.js or Babylon) only when requested to avoid bundle bloat.
 3. Provide fallback 3D previews or videos when hardware unsupported.
 4. Handle session lifecycle (enter/exit) and permissions gracefully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

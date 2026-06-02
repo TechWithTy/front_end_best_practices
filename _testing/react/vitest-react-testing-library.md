@@ -3,6 +3,9 @@ Browse: [https://medium.com/@andrewjeremy12345/the-secret-sauce-to-lightning-fas
 
 Last updated: 2025-11-07
 
+> **Testing Policy:** Vitest is the default test runner for Deal Scale’s React code.  
+> Use `@testing-library/jest-dom` *only* to extend matcher ergonomics (e.g., `toBeInTheDocument`) by importing it once in the shared Vitest setup file. Avoid introducing Jest or other runners unless explicitly approved for legacy edge cases.
+
 ## Why Mocking Matters
 - Keeps React/Next tests fast by avoiding real network or browser APIs.
 - Removes flakiness from rate limits or inconsistent backends.

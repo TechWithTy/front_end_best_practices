@@ -9,3 +9,19 @@ Enable passwordless login using device biometrics or security keys through Web A
 3. Store public keys in backend (FastAPI/Prisma) tied to tenant/user.
 4. Update sign-in UI to offer fingerprint or hardware key options.
 5. Provide recovery flows (email OTP) for unsupported browsers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

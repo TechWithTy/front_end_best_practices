@@ -15,4 +15,20 @@ Ensure core dashboards and campaigns remain usable when the network is unavailab
 
 Consult “What PWA Can Do Today” for best-in-class offline demos and compatibility notes.[^what-pwa]
 
-[^what-pwa]: What PWA Can Do Today   [https://whatpwacando.today/](https://whatpwacando.today/)
+[^what-pwa]: What PWA Can Do Today — [https://whatpwacando.today/](https://whatpwacando.today/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

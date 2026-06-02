@@ -47,3 +47,19 @@ Last updated: 2025-11-07
 ## Follow-Up Tasks
 - Document delta between Next.js PWA and Vite PWA implementations.
 - Add regression tests covering SW registration and prompt flows in Vite scaffolding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

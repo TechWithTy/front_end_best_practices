@@ -8,3 +8,19 @@ Open Deal Scale directly when users double-click supported files (e.g., `.dealsc
 2. Implement `/file-handler` route to parse `launchParams.files` (Chrome desktop).
 3. Use IndexedDB or temporary uploads to import data into the dashboard.
 4. Provide fallback instructions for browsers without file handler support.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

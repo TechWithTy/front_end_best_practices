@@ -21,3 +21,19 @@
 ## Network-aware Rendering
 - `useNetworkQuality` monitors `navigator.connection.effectiveType` and downlinks.
 - Slow connections replace charts with placeholders and skip heavy imports.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

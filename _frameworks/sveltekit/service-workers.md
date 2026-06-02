@@ -47,3 +47,19 @@ self.addEventListener('fetch', (event) => {
 ## Notes for Deal Scale
 - Even though we use Next.js, SvelteKit’s guide is a clear reference for structuring Workbox-free service workers (install/activate/fetch lifecycle, versioned caches). We can mirror the pattern inside `public/sw-custom.js`.
 - Reminder: seamless offline support often requires local-first architecture (see [https://localfirstweb.dev/](https://localfirstweb.dev/)). For Deal Scale, we focus on precaching shell assets and queuing mutations rather than full offline CRUD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

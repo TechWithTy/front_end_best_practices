@@ -8,3 +8,19 @@ Monitor and manage storage usage for cached data, drafts, and media.
 2. Provide controls to clear caches/drafts when nearing limits.
 3. Combine with IndexedDB management to free space programmatically.
 4. Communicate storage usage in user settings to avoid silent failures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
